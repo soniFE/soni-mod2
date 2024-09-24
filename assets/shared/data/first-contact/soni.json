@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "idle",
+			"indices": [],
+			"name": "soni idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-35,
+				4
+			],
+			"anim": "hey",
+			"fps": 12,
+			"name": "soni hey",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-57,
+				-45
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singUP",
+			"indices": [],
+			"name": "soni up0"
+		},
+		{
+			"offsets": [
+				-70,
+				-35
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "soni down0"
+		},
+		{
+			"offsets": [
+				-46,
+				-38
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "soni left0"
+		},
+		{
+			"offsets": [
+				-50,
+				-40
+			],
+			"loop": false,
+			"fps": 12,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "soni right0"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soni",
+	"position": [
+		40,
+		210
+	],
+	"healthicon": "soni",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		34,
+		255
+	],
+	"camera_position": [
+		40,
+		10
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

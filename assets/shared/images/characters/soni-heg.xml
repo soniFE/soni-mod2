@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="soni-heg.png">
+<SubTexture name="soni down0000" x="2004" y="0" width="327" height="399" frameX="-2" frameY="-35" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0001" x="2004" y="0" width="327" height="399" frameX="0" frameY="-19" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0002" x="1306" y="1389" width="323" height="408" frameX="-5" frameY="-27" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0003" x="1306" y="1389" width="323" height="408" frameX="-4" frameY="-15" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0004" x="657" y="1389" width="328" height="410" frameX="-5" frameY="-25" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0005" x="657" y="1389" width="328" height="410" frameX="-4" frameY="-10" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0006" x="657" y="1389" width="328" height="410" frameX="-4" frameY="-10" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0007" x="657" y="1389" width="328" height="410" frameX="-4" frameY="-10" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0008" x="657" y="1389" width="328" height="410" frameX="-4" frameY="-10" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0009" x="1629" y="1389" width="323" height="407" frameX="-5" frameY="-28" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0010" x="1629" y="1389" width="323" height="407" frameX="-4" frameY="-16" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0011" x="985" y="1389" width="321" height="410" frameX="-10" frameY="-25" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0012" x="985" y="1389" width="321" height="410" frameX="-9" frameY="-15" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0013" x="333" y="1389" width="324" height="421" frameX="-12" frameY="-15" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni down0014" x="333" y="1389" width="324" height="421" frameX="-11" frameY="0" frameWidth="353" frameHeight="439" />
+<SubTexture name="soni-heg right0000" x="1562" y="0" width="442" height="441" frameX="-130" frameY="-134" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg right0001" x="1098" y="938" width="445" height="445" frameX="-128" frameY="-130" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg right0002" x="326" y="938" width="443" height="446" frameX="-128" frameY="-129" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg idle0000" x="1244" y="456" width="314" height="452" frameX="-135" frameY="-124" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg idle0001" x="640" y="481" width="314" height="456" frameX="-136" frameY="-120" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg idle0002" x="1244" y="0" width="318" height="456" frameX="-139" frameY="-119" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg idle0003" x="0" y="481" width="319" height="457" frameX="-139" frameY="-118" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg idle0004" x="921" y="0" width="323" height="458" frameX="-139" frameY="-117" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg left0000" x="769" y="938" width="329" height="446" frameX="-105" frameY="-129" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg left0001" x="0" y="938" width="326" height="451" frameX="-109" frameY="-124" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg left0002" x="319" y="481" width="321" height="457" frameX="-114" frameY="-118" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg up0000" x="0" y="0" width="304" height="481" frameX="-162" frameY="-88" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg up0001" x="304" y="0" width="307" height="477" frameX="-160" frameY="-93" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg up0002" x="611" y="0" width="310" height="476" frameX="-159" frameY="-94" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg down0000" x="0" y="1389" width="333" height="435" frameX="-131" frameY="-147" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg down0001" x="1562" y="880" width="332" height="439" frameX="-132" frameY="-143" frameWidth="640" frameHeight="640" />
+<SubTexture name="soni-heg down0002" x="1562" y="441" width="329" height="439" frameX="-133" frameY="-141" frameWidth="640" frameHeight="640" />
+</TextureAtlas>
