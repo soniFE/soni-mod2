@@ -1,61 +1,6 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Dad idle dance"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Dad Sing Note LEFT"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Dad Sing Note DOWN"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Dad Sing Note UP"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Dad Sing Note RIGHT"
-		},
-		{
 			"offsets": [
 				0,
 				0
@@ -101,7 +46,7 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/ginpen-GF",
+	"image": "characters/ginpen-speaker",
 	"position": [
 		140,
 		20
