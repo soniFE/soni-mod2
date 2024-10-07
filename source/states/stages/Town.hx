@@ -60,7 +60,7 @@ class Town extends BaseStage
 		floorshadingreal.setGraphicSize(Std.int(floorshadingreal.width * 0.9));
 		floorshadingreal.updateHitbox();
 		add(floorshadingreal);
-		floorshadingreal.alpha = 0.25;
+		floorshadingreal.alpha = 0.2;
 
 		switch(get_boyfriend().healthIcon) {
 			//SONI MIX & PICO MIX THING + ENCORE
@@ -76,6 +76,7 @@ class Town extends BaseStage
 				remove(bg3);
 				townlight.alpha = 0.95;
 			case "pico":
+				floorshadingreal.alpha = 0.25;
 				floorshadingreal.blend = BlendMode.ADD;
 				bg1.color = FlxColor.fromRGB(213, 102, 27);
 				floorshadingreal.color = FlxColor.fromRGB(255, 119, 1);
