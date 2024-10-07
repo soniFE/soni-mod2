@@ -60,7 +60,7 @@ class Town extends BaseStage
 		floorshadingreal.setGraphicSize(Std.int(floorshadingreal.width * 0.9));
 		floorshadingreal.updateHitbox();
 		add(floorshadingreal);
-		floorshadingreal.alpha = 0.2;
+		floorshadingreal.alpha = 0.15;
 
 		switch(get_boyfriend().healthIcon) {
 			//SONI MIX & PICO MIX THING + ENCORE
