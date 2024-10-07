@@ -16,8 +16,8 @@ class Town extends BaseStage
 
 	override function create()
 	{
-		bg1 = new BGSprite('town/sky', -300, -190, 0, 0);
-		bg1.setGraphicSize(Std.int(bg1.width * 0.8));
+		bg1 = new BGSprite('town/sky', -200, -250, 0, 0);
+		bg1.setGraphicSize(Std.int(bg1.width * 1.1));
 		add(bg1);
 
 		bg2 = new BGSprite('town/sun', 470, 0, 0.2, 0.2);
@@ -28,16 +28,16 @@ class Town extends BaseStage
 		bg3.setGraphicSize(Std.int(bg3.width * 0.7));
 		add(bg3);
 
-		bg4 = new BGSprite('town/town2', -300, -130, 0.3, 0.3);
-		bg4.setGraphicSize(Std.int(bg4.width * 0.6));
+		bg4 = new BGSprite('town/town2', -500, -300, 0.3, 0.3);
+		bg4.setGraphicSize(Std.int(bg4.width * 0.7));
 		add(bg4);
 
-		bg5 = new BGSprite('town/bridge', -300, -130, 0.4, 0.4);
-		bg5.setGraphicSize(Std.int(bg5.width * 0.6));
+		bg5 = new BGSprite('town/bridge', -450, -200, 0.4, 0.4);
+		bg5.setGraphicSize(Std.int(bg5.width * 0.8));
 		add(bg5);
 
-		bg6 = new BGSprite('town/town', -300, -130, 0.4, 0.4);
-		bg6.setGraphicSize(Std.int(bg6.width * 0.6));
+		bg6 = new BGSprite('town/town', -800, -250, 0.4, 0.4);
+		bg6.setGraphicSize(Std.int(bg6.width * 0.65));
 		add(bg6);
 
 		townlight = new BGSprite('town/townlight', bg6.x, bg6.y, bg6.scrollFactor.x, bg6.scrollFactor.y);
