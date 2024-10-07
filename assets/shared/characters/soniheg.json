@@ -1,17 +1,6 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"offsets": [
-				-10,
-				-4
-			],
-			"anim": "singRIGHT",
-			"fps": 12,
-			"name": "soni-heg right",
-			"indices": []
-		},
-		{
 			"offsets": [
 				0,
 				0
@@ -23,34 +12,56 @@
 			"name": "soni-heg idle"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "soni-heg left"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				-5
-			],
-			"anim": "singUP",
-			"fps": 12,
-			"name": "soni-heg up",
+			"anim": "hey",
+			"fps": 17,
+			"name": "soni-heg hey",
 			"indices": []
 		},
 		{
 			"offsets": [
+				-10,
+				-4
+			],
+			"indices": [],
+			"fps": 9,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "soni-heg right"
+		},
+		{
+			"offsets": [
 				0,
 				0
 			],
 			"indices": [],
-			"fps": 12,
+			"fps": 9,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "soni-heg left"
+		},
+		{
+			"offsets": [
+				0,
+				-5
+			],
+			"indices": [],
+			"fps": 9,
+			"anim": "singUP",
+			"loop": false,
+			"name": "soni-heg up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 9,
 			"anim": "singDOWN",
 			"loop": false,
 			"name": "soni-heg down"
@@ -71,8 +82,8 @@
 		255
 	],
 	"camera_position": [
-		170,
-		130
+		100,
+		30
 	],
 	"sing_duration": 6.1,
 	"scale": 1.02

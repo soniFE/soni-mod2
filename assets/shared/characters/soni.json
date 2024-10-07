@@ -1,78 +1,78 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "idle",
-			"indices": [],
-			"name": "soni idle"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-35,
-				4
-			],
-			"anim": "hey",
 			"fps": 12,
-			"name": "soni hey",
+			"name": "soni idle",
 			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-7,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singUP",
-			"indices": [],
-			"name": "soni up0"
-		},
-		{
-			"offsets": [
-				-70,
-				-45
-			],
-			"loop": false,
 			"fps": 12,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "soni down0"
+			"name": "soni up0",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				0,
+				5
+			],
+			"anim": "singDOWN",
+			"fps": 12,
+			"name": "soni down0",
+			"indices": []
+		},
+		{
+			"loop": false,
 			"offsets": [
 				4,
 				0
 			],
-			"loop": false,
-			"fps": 12,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "soni left0"
+			"fps": 12,
+			"name": "soni left0",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-50,
-				-49
-			],
 			"loop": false,
-			"fps": 12,
+			"offsets": [
+				0,
+				1
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "soni right0"
+			"fps": 12,
+			"name": "soni right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "oh",
+			"fps": 12,
+			"name": "soni hey0",
+			"indices": []
 		}
 	],
 	"vocals_file": "soni",
 	"no_antialiasing": false,
 	"image": "characters/soni",
 	"position": [
-		40,
-		210
+		10,
+		200
 	],
 	"healthicon": "soni",
 	"flip_x": true,
@@ -82,9 +82,10 @@
 		255
 	],
 	"camera_position": [
-		40,
-		10
+		80,
+		30
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 1,
+	"_editor_isPlayer": false
 }
