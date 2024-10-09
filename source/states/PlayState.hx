@@ -2427,7 +2427,7 @@ class PlayState extends MusicBeatState
 		for (rating in ratingsData)
 			Paths.image(uiPrefix + "ratings/" + rating.image + uiSuffix);
 		for (i in 0...10)
-			Paths.image(uiPrefix + 'num' + i + uiSuffix);
+			Paths.getSparrowAtlas(uiPrefix + 'num' + uiSuffix);
 	}
 
 	private function popUpScore(?note:Note):Void
@@ -2546,7 +2546,11 @@ class PlayState extends MusicBeatState
 
 			for (i in seperatedScore)
 			{
-				var numScore:FlxSprite = comboGroup.recycle(FlxSprite).loadGraphic(Paths.image(uiPrefix + 'num$i' + uiSuffix));
+				var numScore:FlxSprite = comboGroup.recycle(FlxSprite);
+				numScore.frames = Paths.getSparrowAtlas(uiPrefix + 'num' + uiSuffix);
+				numScore.animation.addByPrefix("idk", 'num$i', 24, true);
+				numScore.animation.play("idk");
+				numScore.active = false;
 				numScore.screenCenter(Y).y += 80 - ClientPrefs.data.comboOffset[3];
 				numScore.x = placement + (43 * daLoop++) - 90 + ClientPrefs.data.comboOffset[2];
 

@@ -1,40 +1,43 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="soni.png">
-<SubTexture name="soni left0000" x="2284" y="0" width="431" height="438" frameX="-152" frameY="-132" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni left0001" x="1859" y="0" width="425" height="442" frameX="-149" frameY="-128" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni left0002" x="1859" y="0" width="425" height="442" frameX="-149" frameY="-128" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni up0000" x="0" y="0" width="347" height="488" frameX="-144" frameY="-87" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni up0001" x="347" y="0" width="349" height="480" frameX="-141" frameY="-96" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni right0000" x="2284" y="438" width="429" height="420" frameX="-23" frameY="-157" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni right0001" x="2284" y="858" width="422" height="420" frameX="-33" frameY="-157" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0000" x="1105" y="455" width="364" height="450" frameX="-129" frameY="-125" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0001" x="1105" y="455" width="364" height="450" frameX="-129" frameY="-125" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0002" x="733" y="488" width="362" height="456" frameX="-128" frameY="-119" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0003" x="733" y="488" width="362" height="456" frameX="-128" frameY="-119" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0004" x="1105" y="0" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0005" x="1105" y="0" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0006" x="1105" y="0" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey soni0007" x="1105" y="0" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni down0000" x="1859" y="442" width="353" height="411" frameX="-113" frameY="-168" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni down0001" x="2284" y="1278" width="349" height="419" frameX="-116" frameY="-159" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0000" x="410" y="488" width="323" height="458" frameX="-139" frameY="-117" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0001" x="445" y="1402" width="379" height="447" frameX="-142" frameY="-128" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0002" x="1472" y="0" width="387" height="450" frameX="-143" frameY="-125" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0003" x="465" y="948" width="389" height="451" frameX="-144" frameY="-124" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0004" x="854" y="948" width="387" height="451" frameX="-144" frameY="-124" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0005" x="1472" y="450" width="337" height="450" frameX="-106" frameY="-125" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0006" x="824" y="1402" width="338" height="447" frameX="-102" frameY="-128" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0007" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0008" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0009" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0010" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0011" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0012" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0013" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni hey0014" x="1472" y="900" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni idle0000" x="1162" y="1402" width="418" height="447" frameX="-102" frameY="-130" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni idle0001" x="0" y="1402" width="445" height="450" frameX="-109" frameY="-127" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni idle0002" x="0" y="948" width="465" height="454" frameX="-108" frameY="-121" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni idle0003" x="696" y="0" width="409" height="460" frameX="-104" frameY="-115" frameWidth="640" frameHeight="640" />
-<SubTexture name="soni idle0004" x="0" y="488" width="410" height="460" frameX="-103" frameY="-115" frameWidth="640" frameHeight="640" />
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="soni.png" width="2064" height="2263">
+	<SubTexture name="soni left0000" x="447" y="456" width="431" height="438" frameX="-152" frameY="-132" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni left0001" x="447" y="896" width="425" height="442" frameX="-149" frameY="-128" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni left0002" x="447" y="896" width="425" height="442" frameX="-149" frameY="-128" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni up0000" x="1694" y="884" width="347" height="488" frameX="-144" frameY="-87" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni up0001" x="1715" y="0" width="349" height="480" frameX="-141" frameY="-96" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni right0000" x="874" y="924" width="429" height="420" frameX="-23" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni right0001" x="1291" y="462" width="422" height="420" frameX="-33" frameY="-157" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0000" x="789" y="1346" width="364" height="450" frameX="-129" frameY="-125" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0001" x="789" y="1346" width="364" height="450" frameX="-129" frameY="-125" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0002" x="0" y="1357" width="362" height="456" frameX="-128" frameY="-119" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0003" x="0" y="1357" width="362" height="456" frameX="-128" frameY="-119" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0004" x="420" y="1340" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0005" x="420" y="1340" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0006" x="420" y="1340" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey soni0007" x="420" y="1340" width="367" height="455" frameX="-120" frameY="-120" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni down0000" x="1480" y="1823" width="353" height="411" frameX="-113" frameY="-168" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni down0001" x="703" y="1798" width="349" height="419" frameX="-116" frameY="-159" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0000" x="1155" y="1785" width="323" height="458" frameX="-139" frameY="-117" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0001" x="1305" y="1336" width="379" height="447" frameX="-142" frameY="-128" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0002" x="1305" y="884" width="387" height="450" frameX="-143" frameY="-125" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0003" x="467" y="0" width="389" height="451" frameX="-144" frameY="-124" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0004" x="1292" y="0" width="387" height="451" frameX="-144" frameY="-124" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0005" x="364" y="1797" width="337" height="450" frameX="-106" frameY="-125" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0006" x="1686" y="1374" width="338" height="447" frameX="-102" frameY="-128" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0007" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0008" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0009" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0010" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0011" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0012" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0013" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni hey0014" x="0" y="1815" width="338" height="448" frameX="-104" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni idle0000" x="0" y="908" width="418" height="447" frameX="-102" frameY="-130" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni idle0001" x="0" y="456" width="445" height="450" frameX="-109" frameY="-127" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni idle0002" x="0" y="0" width="465" height="454" frameX="-108" frameY="-121" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni idle0003" x="880" y="462" width="409" height="460" frameX="-104" frameY="-115" frameWidth="640" frameHeight="640"/>
+	<SubTexture name="soni idle0004" x="880" y="0" width="410" height="460" frameX="-103" frameY="-115" frameWidth="640" frameHeight="640"/>
 </TextureAtlas>

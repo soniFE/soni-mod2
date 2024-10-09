@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="town.png" width="7113" height="7742">
+	<SubTexture name="bridge" x="5500" y="0" width="1366" height="3500" rotated="true" frameX="-0" frameY="-634" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="cloud1" x="0" y="5970" width="3500" height="1178" frameX="-0" frameY="-0" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="floor" x="3500" y="5268" width="3500" height="1195" frameX="-0" frameY="-805" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="nightsky" x="0" y="0" width="3500" height="2000" frameX="-0" frameY="-0" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="overlay" x="0" y="2000" width="3500" height="2000" frameX="-0" frameY="-0" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="sky" x="3500" y="0" width="2000" height="3500" rotated="true" frameX="-0" frameY="-0" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="sun" x="6228" y="6463" width="885" height="886" frameX="-1131" frameY="-50" frameWidth="3266" frameHeight="1741"/>
+	<SubTexture name="town" x="3500" y="3500" width="3500" height="1768" frameX="-0" frameY="-232" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="town2" x="0" y="4000" width="3500" height="1970" frameX="-0" frameY="-30" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="townlight" x="3500" y="6463" width="2728" height="1272" frameX="-603" frameY="-728" frameWidth="3500" frameHeight="2000"/>
+	<SubTexture name="tree" x="0" y="7148" width="3500" height="594" frameX="-0" frameY="-0" frameWidth="3500" frameHeight="2000"/>
+</TextureAtlas>

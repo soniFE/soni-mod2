@@ -8,7 +8,7 @@
 			],
 			"anim": "singUPmiss",
 			"fps": 20,
-			"name": "BF up miss0",
+			"name": "bf up miss0",
 			"indices": []
 		},
 		{
@@ -19,7 +19,7 @@
 			],
 			"anim": "singDOWNmiss",
 			"fps": 20,
-			"name": "BF down miss0",
+			"name": "bf down miss0",
 			"indices": []
 		},
 		{
@@ -30,7 +30,7 @@
 			],
 			"anim": "singRIGHTmiss",
 			"fps": 20,
-			"name": "BF right miss0",
+			"name": "bf right miss0",
 			"indices": []
 		},
 		{
@@ -41,7 +41,7 @@
 			],
 			"anim": "singLEFTmiss",
 			"fps": 20,
-			"name": "BF left miss0",
+			"name": "bf left miss0",
 			"indices": []
 		},
 		{
@@ -52,7 +52,7 @@
 			],
 			"anim": "idle",
 			"fps": 12,
-			"name": "BF idle0",
+			"name": "bf idle0",
 			"indices": []
 		},
 		{
@@ -63,7 +63,7 @@
 			],
 			"anim": "idle-alt",
 			"fps": 12,
-			"name": "BF idle alt",
+			"name": "bf idle alt",
 			"indices": []
 		},
 		{
@@ -74,7 +74,7 @@
 			],
 			"anim": "start",
 			"fps": 14,
-			"name": "BF start",
+			"name": "bf start",
 			"indices": []
 		},
 		{
@@ -85,7 +85,7 @@
 			],
 			"anim": "hey",
 			"fps": 12,
-			"name": "BF hey",
+			"name": "bf hey",
 			"indices": []
 		},
 		{
@@ -97,7 +97,7 @@
 			"fps": 9,
 			"anim": "singDOWN",
 			"loop": false,
-			"name": "BF down0"
+			"name": "bf down0"
 		},
 		{
 			"offsets": [
@@ -108,7 +108,7 @@
 			"fps": 9,
 			"anim": "singLEFT",
 			"loop": false,
-			"name": "BF left0"
+			"name": "bf left0"
 		},
 		{
 			"offsets": [
@@ -119,7 +119,7 @@
 			"fps": 9,
 			"anim": "singRIGHT",
 			"loop": false,
-			"name": "BF right0"
+			"name": "bf right0"
 		},
 		{
 			"offsets": [
@@ -130,7 +130,7 @@
 			"fps": 9,
 			"anim": "singUP",
 			"loop": false,
-			"name": "BF up0"
+			"name": "bf up0"
 		},
 		{
 			"offsets": [
@@ -141,7 +141,7 @@
 			"fps": 10,
 			"anim": "singLEFT-alt",
 			"loop": false,
-			"name": "BF left alt0"
+			"name": "bf left alt0"
 		},
 		{
 			"offsets": [
@@ -152,7 +152,7 @@
 			"fps": 10,
 			"anim": "singRIGHT-alt",
 			"loop": false,
-			"name": "BF right alt"
+			"name": "bf right alt"
 		},
 		{
 			"offsets": [
@@ -163,7 +163,7 @@
 			"fps": 10,
 			"anim": "singUP-alt",
 			"loop": false,
-			"name": "BF up alt"
+			"name": "bf up alt"
 		},
 		{
 			"offsets": [
@@ -174,12 +174,12 @@
 			"fps": 10,
 			"anim": "singDOWN-alt",
 			"loop": false,
-			"name": "BF down-alt"
+			"name": "bf down-alt"
 		}
 	],
 	"vocals_file": "bf",
 	"no_antialiasing": false,
-	"image": "characters/BF",
+	"image": "characters/bf",
 	"position": [
 		-40,
 		190

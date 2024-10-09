@@ -1,29 +1,32 @@
-<?xml version='1.0' encoding='utf-8'?>
-<TextureAtlas imagePath="ginpen-GF.png">
-<SubTexture name="ginpen-GF dance right0000" x="1019" y="698" width="345" height="643" frameX="-75" frameY="-67" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0001" x="1019" y="698" width="345" height="643" frameX="-75" frameY="-67" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0002" x="678" y="698" width="341" height="645" frameX="-74" frameY="-65" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0003" x="678" y="698" width="341" height="645" frameX="-74" frameY="-65" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0004" x="0" y="698" width="339" height="649" frameX="-68" frameY="-61" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0005" x="0" y="698" width="339" height="649" frameX="-68" frameY="-61" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0006" x="1306" y="0" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance right0007" x="1306" y="0" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0000" x="1983" y="0" width="340" height="637" frameX="-58" frameY="-73" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0001" x="1983" y="0" width="340" height="637" frameX="-58" frameY="-73" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0002" x="1645" y="0" width="338" height="643" frameX="-63" frameY="-67" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0003" x="1645" y="0" width="338" height="643" frameX="-63" frameY="-67" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0004" x="339" y="698" width="339" height="647" frameX="-64" frameY="-63" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0005" x="339" y="698" width="339" height="647" frameX="-64" frameY="-63" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0006" x="1306" y="0" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF dance left0007" x="1306" y="0" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0000" x="864" y="0" width="442" height="656" frameX="-73" frameY="-61" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0001" x="864" y="0" width="442" height="656" frameX="-73" frameY="-61" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0002" x="429" y="0" width="435" height="689" frameX="-71" frameY="-28" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0003" x="429" y="0" width="435" height="689" frameX="-71" frameY="-28" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0004" x="0" y="0" width="429" height="698" frameX="-71" frameY="-19" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0005" x="0" y="0" width="429" height="698" frameX="-71" frameY="-19" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0006" x="0" y="1347" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0007" x="0" y="1347" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0008" x="0" y="1347" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750" />
-<SubTexture name="ginpen-GF hey0009" x="0" y="1347" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750" />
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="ginpen-speaker.png" width="4140" height="702">
+	<SubTexture name="ginpen-GF dance right0000" x="1115" y="2" width="345" height="643" frameX="-75" frameY="-67" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0001" x="1115" y="2" width="345" height="643" frameX="-75" frameY="-67" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0002" x="1462" y="2" width="341" height="645" frameX="-74" frameY="-65" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0003" x="1462" y="2" width="341" height="645" frameX="-74" frameY="-65" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0004" x="2146" y="2" width="339" height="649" frameX="-68" frameY="-61" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0005" x="2146" y="2" width="339" height="649" frameX="-68" frameY="-61" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0006" x="2487" y="2" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance right0007" x="2487" y="2" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0000" x="433" y="2" width="340" height="637" frameX="-58" frameY="-73" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0001" x="433" y="2" width="340" height="637" frameX="-58" frameY="-73" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0002" x="775" y="2" width="338" height="643" frameX="-63" frameY="-67" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0003" x="775" y="2" width="338" height="643" frameX="-63" frameY="-67" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0004" x="1805" y="2" width="339" height="647" frameX="-64" frameY="-63" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0005" x="1805" y="2" width="339" height="647" frameX="-64" frameY="-63" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0006" x="2487" y="2" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF dance left0007" x="2487" y="2" width="339" height="650" frameX="-64" frameY="-60" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0000" x="2828" y="2" width="442" height="656" frameX="-73" frameY="-61" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0001" x="2828" y="2" width="442" height="656" frameX="-73" frameY="-61" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0002" x="3272" y="2" width="435" height="689" frameX="-71" frameY="-28" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0003" x="3272" y="2" width="435" height="689" frameX="-71" frameY="-28" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0004" x="3709" y="2" width="429" height="698" frameX="-71" frameY="-19" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0005" x="3709" y="2" width="429" height="698" frameX="-71" frameY="-19" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0006" x="2" y="2" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0007" x="2" y="2" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0008" x="2" y="2" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750"/>
+	<SubTexture name="ginpen-GF hey0009" x="2" y="2" width="429" height="624" frameX="-71" frameY="-93" frameWidth="549" frameHeight="750"/>
 </TextureAtlas>
