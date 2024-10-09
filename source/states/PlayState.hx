@@ -2492,10 +2492,12 @@ class PlayState extends MusicBeatState
 		rating.antialiasing = antialias;
 
 		rating.setGraphicSize(rating.width * mult);
+		rating.scale.set(mult+0.1, mult+0.1);
 		rating.updateHitbox();
 		rating.ID = comboGroup.ID++;
 
 		comboGroup.add(rating);
+		FlxTween.tween(rating.scale, {x: mult, y: mult}, 0.2 / playbackRate);
 		FlxTween.tween(rating, {alpha: 0}, 0.2 / playbackRate, {
 			onComplete: function(_)
 			{

@@ -54,7 +54,7 @@ class Town extends BaseStage
 		bg8.setGraphicSize(Std.int(bg8.width * 0.8));
 		add(bg8);
 
-		for i in [bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8] {
+		for (i in [bg1, bg2, bg3, bg4, bg5, bg6, bg7, bg8]) {
 			i.active = false;
 		}
 	}
