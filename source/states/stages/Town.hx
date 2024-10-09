@@ -24,8 +24,8 @@ class Town extends BaseStage
 		bg2.setGraphicSize(Std.int(bg2.width * 0.2));
 		add(bg2);
 
-		bg3 = new BGSprite('town/cloud1', -370, -120, 0.2, 0.2);
-		bg3.setGraphicSize(Std.int(bg3.width * 0.7));
+		bg3 = new BGSprite('town/cloud1', -200, -120, 0.2, 0.2);
+		bg3.setGraphicSize(Std.int(bg3.width * 0.8));
 		add(bg3);
 
 		bg4 = new BGSprite('town/town2', -500, -300, 0.3, 0.3);
@@ -36,7 +36,7 @@ class Town extends BaseStage
 		bg5.setGraphicSize(Std.int(bg5.width * 0.8));
 		add(bg5);
 
-		bg6 = new BGSprite('town/town', -800, -250, 0.4, 0.4);
+		bg6 = new BGSprite('town/town', -850, -250, 0.4, 0.4);
 		bg6.setGraphicSize(Std.int(bg6.width * 0.65));
 		add(bg6);
 
