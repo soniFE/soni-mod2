@@ -24,8 +24,8 @@ class Town extends BaseStage
 		bg2.setGraphicSize(Std.int(bg2.width * 0.2));
 		add(bg2);
 
-		bg3 = new BGSprite('town', -200, -120, 0.2, 0.2, ['cloud1']);
-		bg3.setGraphicSize(Std.int(bg3.width * 0.8));
+		bg3 = new BGSprite('town', -800, -600, 0.2, 0.2, ['cloud1']);
+		bg3.setGraphicSize(Std.int(bg3.width * 0.7));
 		add(bg3);
 
 		bg4 = new BGSprite('town', -500, -300, 0.3, 0.3, ['town2']);
@@ -64,7 +64,7 @@ class Town extends BaseStage
 		floorshadingreal.setGraphicSize(Std.int(floorshadingreal.width * 0.9));
 		floorshadingreal.updateHitbox();
 		add(floorshadingreal);
-		floorshadingreal.alpha = 0.15;
+		floorshadingreal.alpha = 0.2;
 
 		switch(get_boyfriend().healthIcon) {
 			//SONI MIX & PICO MIX THING + ENCORE
