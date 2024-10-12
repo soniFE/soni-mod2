@@ -386,7 +386,8 @@ class PlayState extends MusicBeatState
 		switch (curStage)
 		{
 			case 'stage': new states.stages.StageWeek1(); //Basegame Stage cuz yes
-			case 'town': new states.stages.Town(); //Week 1
+			case 'town': new states.stages.Town(); //Soni
+			case 'deadcity': new states.stages.Deadcity(); //Soni.exe Fuck go kill yourself man you need to fuck i gonna layp you hahahahahfhhahgagtgargarge
 		}
 
 		if(isPixelStage) {
@@ -1453,47 +1454,52 @@ class PlayState extends MusicBeatState
 	}
 
 	public var skipArrowStartTween:Bool = false; //for lua
+
 	private function generateStaticArrows(player:Int):Void
 	{
 		var strumLineX:Float = ClientPrefs.data.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X;
 		var strumLineY:Float = ClientPrefs.data.downScroll ? (FlxG.height - 150) : 50;
+		var isPlayerOne:Bool = player == 1;
+		var targetAlpha:Float = 1;
+			
+		if (!isPlayerOne)
+		{
+			targetAlpha = ClientPrefs.data.opponentStrums ? (ClientPrefs.data.middleScroll ? 0.35 : 1) : 0;
+		}
+		
 		for (i in 0...4)
 		{
-			// FlxG.log.add(i);
-			var targetAlpha:Float = 1;
-			if (player < 1)
-			{
-				if(!ClientPrefs.data.opponentStrums) targetAlpha = 0;
-				else if(ClientPrefs.data.middleScroll) targetAlpha = 0.35;
-			}
-
 			var babyArrow:StrumNote = new StrumNote(strumLineX, strumLineY, i, player);
 			babyArrow.downScroll = ClientPrefs.data.downScroll;
+			
 			if (!isStoryMode && !skipArrowStartTween)
 			{
-				//babyArrow.y -= 10;
 				babyArrow.alpha = 0;
-				FlxTween.tween(babyArrow, {/*y: babyArrow.y + 10,*/ alpha: targetAlpha}, 1, {ease: FlxEase.circOut, startDelay: 0.5 + (0.2 * i)});
+				FlxTween.tween(babyArrow, {alpha: targetAlpha}, 1, {ease: FlxEase.circOut, startDelay: 0.5 + (0.2 * i)});
 			}
 			else
+			{
 				babyArrow.alpha = targetAlpha;
-
-			if (player == 1)
+			}
+		
+			if (isPlayerOne)
+			{
 				playerStrums.add(babyArrow);
+			}
 			else
 			{
 				if(ClientPrefs.data.middleScroll)
 				{
-					babyArrow.x += 310;
+				babyArrow.x += 310;
 					if(i > 1) { //Up and Right
-						babyArrow.x += FlxG.width / 2 + 25;
+							babyArrow.x += FlxG.width / 2 + 25;
 					}
 				}
 				opponentStrums.add(babyArrow);
 			}
-
-			strumLineNotes.add(babyArrow);
-			babyArrow.postAddedToGroup();
+		
+				strumLineNotes.add(babyArrow);
+				babyArrow.postAddedToGroup();
 		}
 	}
 
