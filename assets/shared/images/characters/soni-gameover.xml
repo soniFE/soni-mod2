@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="soni-gameover.png">
+<SubTexture name="soni-gameover gameover10000" x="479" y="490" width="485" height="482" frameX="-82" frameY="-366" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10001" x="0" y="975" width="483" height="476" frameX="-78" frameY="-239" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10002" x="1432" y="0" width="482" height="479" frameX="-75" frameY="-165" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10003" x="953" y="0" width="479" height="485" frameX="-70" frameY="-130" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10004" x="0" y="490" width="479" height="485" frameX="-68" frameY="-118" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10005" x="0" y="490" width="479" height="485" frameX="-68" frameY="-118" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10006" x="0" y="490" width="479" height="485" frameX="-68" frameY="-118" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10007" x="0" y="490" width="479" height="485" frameX="-68" frameY="-118" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10008" x="476" y="0" width="477" height="488" frameX="-66" frameY="-121" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10009" x="0" y="0" width="476" height="490" frameX="-60" frameY="-142" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10010" x="1914" y="1161" width="469" height="250" frameX="-42" frameY="-675" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10011" x="1914" y="633" width="469" height="264" frameX="-70" frameY="-689" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10012" x="1914" y="633" width="469" height="264" frameX="-70" frameY="-689" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10013" x="1914" y="633" width="469" height="264" frameX="-70" frameY="-689" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10014" x="1914" y="633" width="469" height="264" frameX="-70" frameY="-689" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10015" x="1914" y="897" width="469" height="264" frameX="-70" frameY="-689" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10016" x="1914" y="333" width="469" height="300" frameX="-70" frameY="-653" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10017" x="1914" y="0" width="469" height="333" frameX="-70" frameY="-620" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10018" x="1424" y="1451" width="469" height="348" frameX="-70" frameY="-605" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10019" x="955" y="1451" width="469" height="359" frameX="-70" frameY="-594" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10020" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10021" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10022" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10023" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover10024" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover20000" x="0" y="1451" width="486" height="365" frameX="-63" frameY="-588" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover20001" x="1421" y="975" width="475" height="366" frameX="-67" frameY="-590" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover20002" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover20003" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover20004" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover20005" x="486" y="1451" width="469" height="361" frameX="-70" frameY="-592" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover30000" x="1432" y="479" width="469" height="407" frameX="-70" frameY="-546" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover30001" x="483" y="975" width="469" height="407" frameX="-70" frameY="-546" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover30002" x="952" y="975" width="469" height="403" frameX="-70" frameY="-550" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover30003" x="952" y="975" width="469" height="403" frameX="-70" frameY="-550" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover30004" x="952" y="975" width="469" height="403" frameX="-70" frameY="-550" frameWidth="640" frameHeight="961" />
+<SubTexture name="soni-gameover gameover30005" x="952" y="975" width="469" height="403" frameX="-70" frameY="-550" frameWidth="640" frameHeight="961" />
+</TextureAtlas>

@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				210
+			],
+			"anim": "firstDeath",
+			"fps": 12,
+			"name": "soni-gameover gameover1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				210
+			],
+			"anim": "deathConfirm",
+			"fps": 12,
+			"name": "soni-gameover gameover3",
+			"indices": []
+		},
+		{
+			"offsets": [
+				37,
+				210
+			],
+			"indices": [],
+			"fps": 10,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "soni-gameover gameover2"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/soni-gameover",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		-30,
+		150
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
