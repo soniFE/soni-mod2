@@ -58,6 +58,9 @@ import psychlua.HScript;
 #if SScript
 import tea.SScript;
 #end
+import modcharting.ModchartFuncs;
+import modcharting.NoteMovement;
+import modcharting.PlayfieldRenderer;
 
 /**
  * This is where all the Gameplay stuff happens and is managed
@@ -268,8 +271,11 @@ class PlayState extends MusicBeatState
 	public var startCallback:Void->Void = null;
 	public var endCallback:Void->Void = null;
 
+	var cacheOnGPU:Bool = ClientPrefs.data.cacheOnGPU;
+
 	override public function create()
 	{
+		ClientPrefs.data.cacheOnGPU = false;
 		//trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 
@@ -309,6 +315,7 @@ class PlayState extends MusicBeatState
 
 		FlxG.cameras.add(camHUD, false);
 		FlxG.cameras.add(camOther, false);
+
 		grpNoteSplashes = new FlxTypedGroup<NoteSplash>();
 		grpNoteSplashes.ID = 0;
 
@@ -934,6 +941,7 @@ class PlayState extends MusicBeatState
 				setOnScripts('defaultOpponentStrumY' + i, opponentStrums.members[i].y);
 				//if(ClientPrefs.data.middleScroll) opponentStrums.members[i].visible = false;
 			}
+			NoteMovement.getDefaultStrumPos(this);
 
 			startedCountdown = true;
 			Conductor.songPosition = -Conductor.crochet * 5;
@@ -1220,6 +1228,8 @@ class PlayState extends MusicBeatState
 	private var eventsPushed:Array<String> = [];
 	private function generateSong(dataPath:String):Void
 	{
+		cacheOnGPU = ClientPrefs.data.cacheOnGPU;
+		ClientPrefs.data.cacheOnGPU = false;
 		// FlxG.log.add(ChartParser.parse());
 		songSpeed = PlayState.SONG.speed;
 		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype');
@@ -1271,8 +1281,10 @@ class PlayState extends MusicBeatState
 
 		notes = new FlxTypedGroup<Note>();
 		noteGroup.add(notes);
+		
 
 		var noteData:Array<SwagSection>;
+		
 
 		// NEW SHIT
 		noteData = songData.notes;
@@ -1285,6 +1297,10 @@ class PlayState extends MusicBeatState
 				for (i in 0...event[1].length)
 					makeEvent(event, i);
 		}
+
+		playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
+		playfieldRenderer.cameras = [camHUD];
+		add(playfieldRenderer);
 
 		for (section in noteData)
 		{
@@ -1823,6 +1839,8 @@ class PlayState extends MusicBeatState
 		health = value;
 		var newPercent:Null<Float> = FlxMath.remapToRange(FlxMath.bound(healthBar.valueFunction(), healthBar.bounds.min, healthBar.bounds.max), healthBar.bounds.min, healthBar.bounds.max, 0, 100);
 		healthBar.percent = (newPercent != null ? newPercent : 0);
+		if (healthBar.percent < 1)
+			healthBar.percent = 1;
 
 		if (healthBar.percent < 20) {
 			iconP1.animation.curAnim.curFrame = 1;
@@ -2192,6 +2210,25 @@ class PlayState extends MusicBeatState
 			case 'Play Sound':
 				if(flValue2 == null) flValue2 = 1;
 				FlxG.sound.play(Paths.sound(value1), flValue2);
+
+			case 'Flash Camera':
+				if (!ClientPrefs.data.flashing)
+					return;
+				var color:FlxColor = FlxColor.WHITE;
+				switch (value2.toLowerCase()) {
+					case "red":
+						color = FlxColor.RED;
+					case "green":
+						color = FlxColor.GREEN;
+					case "blue":
+						color = FlxColor.BLUE;
+					case "pink":
+						color = FlxColor.PINK;
+					case "yellow":
+						color = FlxColor.YELLOW;
+				}
+				camGame.flash(color, Std.parseInt(value1), null,false);
+
 		}
 
 		stagesFunc(function(stage:BaseStage) stage.eventCalled(eventName, value1, value2, flValue1, flValue2, strumTime));
@@ -3111,6 +3148,7 @@ class PlayState extends MusicBeatState
 		#if FLX_PITCH FlxG.sound.music.pitch = 1; #end
 		Note.globalRgbShaders = [];
 		backend.NoteTypesConfig.clearNoteTypesData();
+		ClientPrefs.data.cacheOnGPU = cacheOnGPU;
 		instance = null;
 		super.destroy();
 	}
