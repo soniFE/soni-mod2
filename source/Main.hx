@@ -34,16 +34,6 @@ import sys.io.File;
 ')
 #end
 
-typedef GameConfig = {
-    width:Int,
-    height:Int,
-    initialState:Class<FlxState>,
-    zoom:Float,
-    framerate:Int,
-    skipSplash:Bool,
-    startFullscreen:Bool
-}
-
 class Main extends Sprite
 {
     public static var fpsVar:FPSCounter;
@@ -236,4 +226,14 @@ class Main extends Sprite
         Sys.exit(1);
     }
     #end
+}
+
+typedef GameConfig = {
+    width:Int,
+    height:Int,
+    initialState:Class<FlxState>,
+    zoom:Float,
+    framerate:Int,
+    skipSplash:Bool,
+    startFullscreen:Bool
 }

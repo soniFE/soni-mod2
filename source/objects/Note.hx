@@ -1,6 +1,5 @@
 package objects;
 
-import flixel.math.FlxPoint;
 import backend.animation.PsychAnimationController;
 import backend.NoteTypesConfig;
 
@@ -39,9 +38,6 @@ typedef NoteSplashData = {
 **/
 class Note extends FlxSprite
 {
-	public var mAngle:Float = 0;
-	public var bAngle:Float = 0;
-
 	public var extraData:Map<String, Dynamic> = new Map<String, Dynamic>();
 
 	public var strumTime:Float = 0;
@@ -87,7 +83,7 @@ class Note extends FlxSprite
 
 	public static var SUSTAIN_SIZE:Int = 44;
 	public static var swagWidth:Float = 160 * 0.7;
-	public static var colArray = ['purple', 'blue', 'green', 'red'];
+	public static var colArray:Array<String> = ['purple', 'blue', 'green', 'red'];
 	public static var defaultNoteSkin(default, never):String = 'noteSkins/NOTE_assets';
 
 	public var noteSplashData:NoteSplashData = {
@@ -95,7 +91,7 @@ class Note extends FlxSprite
 		texture: null,
 		antialiasing: !PlayState.isPixelStage,
 		useGlobalShader: false,
-		useRGBShader: PlayState.SONG == null || !PlayState.SONG.disableNoteRGB,
+		useRGBShader: (PlayState.SONG != null) ? !(PlayState.SONG.disableNoteRGB == true) : true,
 		r: -1,
 		g: -1,
 		b: -1,
@@ -216,7 +212,7 @@ class Note extends FlxSprite
 		animation = new PsychAnimationController(this);
 
 		antialiasing = ClientPrefs.data.antialiasing;
-		createdFrom = createdFrom ?? PlayState.instance;
+		if(createdFrom == null) createdFrom = PlayState.instance;
 
 		if (prevNote == null)
 			prevNote = this;
@@ -243,7 +239,7 @@ class Note extends FlxSprite
 			if(!isSustainNote && noteData < colArray.length) { //Doing this 'if' check to fix the warnings on Senpai songs
 				var animToPlay:String = '';
 				animToPlay = colArray[noteData % colArray.length];
-				animation.play('Scroll');
+				animation.play(animToPlay + 'Scroll');
 			}
 		}
 
@@ -262,7 +258,7 @@ class Note extends FlxSprite
 			offsetX += width / 2;
 			copyAngle = false;
 
-			animation.play('holdend');
+			animation.play(colArray[noteData % colArray.length] + 'holdend');
 
 			updateHitbox();
 
@@ -273,7 +269,7 @@ class Note extends FlxSprite
 
 			if (prevNote.isSustainNote)
 			{
-				prevNote.animation.play('hold');
+				prevNote.animation.play(colArray[prevNote.noteData % colArray.length] + 'hold');
 
 				prevNote.scale.y *= Conductor.stepCrochet / 100 * 1.05;
 				if(createdFrom != null && createdFrom.songSpeed != null) prevNote.scale.y *= createdFrom.songSpeed;
@@ -290,7 +286,6 @@ class Note extends FlxSprite
 			{
 				scale.y *= PlayState.daPixelZoom;
 				updateHitbox();
-
 			}
 			earlyHitMult = 0;
 		}
@@ -300,19 +295,6 @@ class Note extends FlxSprite
 			centerOrigin();
 		}
 		x += offsetX;
-
-		if (inEditor) {
-			switch (noteData % 4) {
-				case 0:
-					angle = 0;
-				case 1:
-					angle = -90;
-				case 2:
-					angle = 90;
-				case 3:
-					angle = 180;
-			}
-		}
 	}
 
 	public static function initializeGlobalRGBShader(noteData:Int)
@@ -413,11 +395,11 @@ class Note extends FlxSprite
 	function loadNoteAnims() {
 		if (isSustainNote)
 		{
-			//attemptToAddAnimationByPrefix('purpleholdend', 'pruple end hold', 24, true); // this fixes some retarded typo from the original note .FLA
-			animation.addByPrefix('holdend', 'hold end', 24, true);
-			animation.addByPrefix('hold', 'hold piece', 24, true);
+			attemptToAddAnimationByPrefix('purpleholdend', 'pruple end hold', 24, true); // this fixes some retarded typo from the original note .FLA
+			animation.addByPrefix(colArray[noteData] + 'holdend', colArray[noteData] + ' hold end', 24, true);
+			animation.addByPrefix(colArray[noteData] + 'hold', colArray[noteData] + ' hold piece', 24, true);
 		}
-		else animation.addByPrefix('Scroll', 'note');
+		else animation.addByPrefix(colArray[noteData] + 'Scroll', colArray[noteData] + '0');
 
 		setGraphicSize(Std.int(width * 0.7));
 		updateHitbox();
@@ -426,9 +408,9 @@ class Note extends FlxSprite
 	function loadPixelNoteAnims() {
 		if(isSustainNote)
 		{
-			animation.add('holdend', [noteData + 4], 24, true);
-			animation.add('hold', [noteData], 24, true);
-		} else animation.add('Scroll', [noteData + 4], 24, true);
+			animation.add(colArray[noteData] + 'holdend', [noteData + 4], 24, true);
+			animation.add(colArray[noteData] + 'hold', [noteData], 24, true);
+		} else animation.add(colArray[noteData] + 'Scroll', [noteData + 4], 24, true);
 	}
 
 	function attemptToAddAnimationByPrefix(name:String, prefix:String, framerate:Float = 24, doLoop:Bool = true)

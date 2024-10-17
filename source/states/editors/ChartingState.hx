@@ -1422,7 +1422,10 @@ class ChartingState extends MusicBeatState
 		try
 		{
 			var oppVocals = Paths.voices(currentSongName, (characterData.vocalsP2 == null || characterData.vocalsP2.length < 1) ? 'Opponent' : characterData.vocalsP2);
-			if(oppVocals != null) opponentVocals.loadEmbedded(oppVocals);
+			if(oppVocals != null)
+				opponentVocals.loadEmbedded(oppVocals);
+			else if (Paths.voices(currentSongName, characterData.vocalsP2 + "-" + characterData.vocalsP1) != null)
+				opponentVocals.loadEmbedded(Paths.voices(currentSongName, characterData.vocalsP2 + "-" + characterData.vocalsP1));
 		}
 		opponentVocals.autoDestroy = false;
 		FlxG.sound.list.add(opponentVocals);
@@ -1483,7 +1486,10 @@ class ChartingState extends MusicBeatState
 	}
 
 	function generateSong() {
-		FlxG.sound.playMusic(Paths.inst(currentSongName), 0.6/*, false*/);
+		var instrumental = Paths.inst(currentSongName, characterData.vocalsP1);
+		if (instrumental == null)
+			instrumental = Paths.inst(currentSongName);
+		FlxG.sound.playMusic(instrumental, 0.6/*, false*/);
 		FlxG.sound.music.autoDestroy = false;
 		if (instVolume != null) FlxG.sound.music.volume = instVolume.value;
 		if (check_mute_inst != null && check_mute_inst.checked) FlxG.sound.music.volume = 0;
