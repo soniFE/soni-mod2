@@ -935,7 +935,6 @@ class PlayState extends MusicBeatState
 				setOnScripts('defaultOpponentStrumY' + i, opponentStrums.members[i].y);
 				//if(ClientPrefs.data.middleScroll) opponentStrums.members[i].visible = false;
 			}
-			NoteMovement.getDefaultStrumPos(this);
 
 			startedCountdown = true;
 			Conductor.songPosition = -Conductor.crochet * 5;
