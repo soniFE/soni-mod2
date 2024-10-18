@@ -20,8 +20,7 @@
 	
 	<!-- ______________________ PSYCH ENGINE CUSTOMIZATION ______________________ -->
 
-	<define name="HSCRIPT_ALLOWED" if="desktop" />
-	<define name="LUA_ALLOWED" if="desktop" />
+	<define name="MODDING_ALLOWED" if="desktop" />
 	<define name="ACHIEVEMENTS_ALLOWED" />
 	<define name="DISCORD_ALLOWED" />
 	<define name="PSYCH_WATERMARKS"/> <!-- DELETE THIS TO REMOVE WATERMARKS/DEV NAMES ON TITLE SCREEN -->
@@ -73,9 +72,7 @@
 	<library name="videos"        preload="true" if="VIDEOS_ALLOWED"/>
 	<library name="songs"         preload="true" />
 
-	<section if="MODS_ALLOWED">
-		<assets path='../mods' rename="mods" embed='false'/>
-	</section>
+	<assets path='../mods' rename="mods" embed='false'/>
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
@@ -85,11 +82,17 @@
 	<haxelib name="tjson" />
 
 	<!--Psych stuff needed-->
-	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
-	<haxelib name="SScript" if="HSCRIPT_ALLOWED"/>
 	<haxelib name="hxCodec" if="VIDEOS_ALLOWED"/>
 	<haxelib name="hxdiscord_rpc" if="DISCORD_ALLOWED"/>
 	<haxelib name="flxanimate"/>
+
+	<!--Modding Things-->
+	<haxelib name="hscript-improved" if="MODDING_ALLOWED"/>
+	<haxelib name="polymod" if="MODDING_ALLOWED"/>
+	
+	<haxedef name="POLYMOD_SCRIPT_EXT" value=".hx" />
+	<haxedef name="POLYMOD_ROOT_PATH" value="scripts/" />
+	<haxedef name="POLYMOD_MOD_METADATA_FILE" value="meta.json" />
 
 	<!-- Disable Discord IO Thread -->
 	<haxedef name="DISCORD_DISABLE_IO_THREAD" if="hxdiscord_rpc" />

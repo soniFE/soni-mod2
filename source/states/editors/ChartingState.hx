@@ -487,7 +487,7 @@ class ChartingState extends MusicBeatState
 		var directories:Array<String> = [Paths.getSharedPath('characters/')];
 
 		var tempArray:Array<String> = [];
-		var characters:Array<String> = Mods.mergeAllTextsNamed('data/characterList.txt', Paths.getSharedPath());
+		var characters:Array<String> = Paths.mergeAllTextsNamed('data/characterList.txt', Paths.getSharedPath());
 		for (character in characters)
 		{
 			if(character.trim().length > 0)
@@ -541,7 +541,7 @@ class ChartingState extends MusicBeatState
 
 		var directories:Array<String> = [Paths.getSharedPath('stages/')];
 
-		var stageFile:Array<String> = Mods.mergeAllTextsNamed('data/stageList.txt', Paths.getSharedPath());
+		var stageFile:Array<String> = Paths.mergeAllTextsNamed('data/stageList.txt', Paths.getSharedPath());
 		var stages:Array<String> = [];
 		for (stage in stageFile) {
 			if(stage.trim().length > 0) {
@@ -902,7 +902,7 @@ class ChartingState extends MusicBeatState
 		}
 
 		#if sys
-		var foldersToCheck:Array<String> = Mods.directoriesWithFile(Paths.getSharedPath(), 'custom_notetypes/');
+		var foldersToCheck:Array<String> = Paths.directoriesWithFile(Paths.getSharedPath(), 'custom_notetypes/');
 		for (folder in foldersToCheck)
 			for (file in FileSystem.readDirectory(folder))
 			{

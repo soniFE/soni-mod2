@@ -39,7 +39,6 @@ class MainMenuState extends MusicBeatState
     {
         super.create();
         
-        Mods.loadTopMod();
         setupDiscord();
         setupTransitions();
         setupBackground();
