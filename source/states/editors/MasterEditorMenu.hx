@@ -7,7 +7,6 @@ import objects.Character;
 import states.MainMenuState;
 import states.FreeplayState;
 
-import modcharting.ModchartEditorState;
 class MasterEditorMenu extends MusicBeatState
 {
 	var options:Array<String> = [
@@ -17,7 +16,6 @@ class MasterEditorMenu extends MusicBeatState
 		'Menu Character Editor',
 		'Dialogue Editor',
 		'Dialogue Portrait Editor',
-		'Modchart Editor',
 		'Note Splash Debug'
 	];
 	private var grpTexts:FlxTypedGroup<Alphabet>;
@@ -89,8 +87,6 @@ class MasterEditorMenu extends MusicBeatState
 					LoadingState.loadAndSwitchState(new DialogueEditorState(), false);
 				case 'Dialogue Portrait Editor':
 					LoadingState.loadAndSwitchState(new DialogueCharacterEditorState(), false);
-				case 'Modchart Editor':
-					MusicBeatState.switchState(new ModchartEditorState());
 				case 'Note Splash Debug':
 					MusicBeatState.switchState(new NoteSplashDebugState());
 			}

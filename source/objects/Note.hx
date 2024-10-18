@@ -68,9 +68,6 @@ class Note extends FlxSkewedSprite
 	public var isSustainNote:Bool = false;
 	public var noteType(default, set):String = null;
 
-	public var mesh:modcharting.SustainStrip = null;
-	public var z:Float = 0;
-
 	public var eventName:String = '';
 	public var eventLength:Int = 0;
 	public var eventVal1:String = '';

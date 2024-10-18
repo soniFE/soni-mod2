@@ -6,7 +6,7 @@ import flixel.FlxState;
 import backend.PsychCamera;
 
 
-class MusicBeatState extends modcharting.ModchartMusicBeatState
+class MusicBeatState extends FlxUIState
 {
 	private var curSection:Int = 0;
 	private var stepsToDo:Int = 0;

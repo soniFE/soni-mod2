@@ -58,9 +58,6 @@ import psychlua.HScript;
 #if SScript
 import tea.SScript;
 #end
-import modcharting.ModchartFuncs;
-import modcharting.NoteMovement;
-import modcharting.PlayfieldRenderer;
 
 /**
  * This is where all the Gameplay stuff happens and is managed
@@ -271,11 +268,8 @@ class PlayState extends MusicBeatState
 	public var startCallback:Void->Void = null;
 	public var endCallback:Void->Void = null;
 
-	var cacheOnGPU:Bool = ClientPrefs.data.cacheOnGPU;
-
 	override public function create()
 	{
-		ClientPrefs.data.cacheOnGPU = false;
 		//trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 
@@ -1228,8 +1222,6 @@ class PlayState extends MusicBeatState
 	private var eventsPushed:Array<String> = [];
 	private function generateSong(dataPath:String):Void
 	{
-		cacheOnGPU = ClientPrefs.data.cacheOnGPU;
-		ClientPrefs.data.cacheOnGPU = false;
 		// FlxG.log.add(ChartParser.parse());
 		songSpeed = PlayState.SONG.speed;
 		songSpeedType = ClientPrefs.getGameplaySetting('scrolltype');
@@ -1297,10 +1289,6 @@ class PlayState extends MusicBeatState
 				for (i in 0...event[1].length)
 					makeEvent(event, i);
 		}
-
-		playfieldRenderer = new PlayfieldRenderer(strumLineNotes, notes, this);
-		playfieldRenderer.cameras = [camHUD];
-		add(playfieldRenderer);
 
 		for (section in noteData)
 		{
@@ -3148,7 +3136,6 @@ class PlayState extends MusicBeatState
 		#if FLX_PITCH FlxG.sound.music.pitch = 1; #end
 		Note.globalRgbShaders = [];
 		backend.NoteTypesConfig.clearNoteTypesData();
-		ClientPrefs.data.cacheOnGPU = cacheOnGPU;
 		instance = null;
 		super.destroy();
 	}
