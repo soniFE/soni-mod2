@@ -93,11 +93,10 @@
       "url": "https://github.com/EliteMasterEric/jsonpath"
     },
     {
-      "name": "hscript-improved",
+      "name": "hscript-iris",
       "type": "git",
       "dir": null,
-      "ref": "12785398e2f07082f05034cb580682e5671442a2",
-      "url": "https://github.com/FNF-CNE-Devs/hscript-improved"
+      "url": "https://github.com/crowplexus/hscript-iris"
     }
   ]
 }

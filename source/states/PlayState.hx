@@ -48,6 +48,12 @@ import objects.Note.EventNote;
 import objects.*;
 import states.stages.objects.*;
 
+//Softcoding
+#if MODDING_ALLOWED
+import modding.PsychHscript;
+import crowplexus.iris.Iris;
+#end
+
 /**
  * This is where all the Gameplay stuff happens and is managed
  *
@@ -238,6 +244,9 @@ class PlayState extends MusicBeatState
 	public var startCallback:Void->Void = null;
 	public var endCallback:Void->Void = null;
 
+	//Scripting
+	public var hscriptArray:Array<PsychHscript> = [];
+
 	override public function create()
 	{
 		//trace('Playback Rate: ' + playbackRate);
@@ -398,7 +407,10 @@ class PlayState extends MusicBeatState
 			if(gf != null)
 				gf.visible = false;
 		}
+
+		
 		stagesFunc(function(stage:BaseStage) stage.createPost());
+		callScript("postCreate");
 
 		comboGroup = new FlxSpriteGroup();
 		comboGroup.ID = 0;
@@ -517,6 +529,11 @@ class PlayState extends MusicBeatState
 		{
 			for (event in eventNotes) event.strumTime -= eventEarlyTrigger(event);
 			eventNotes.sort(sortByTime);
+		}
+
+		//Song Scripts
+		for (file in FileSystem.readDirectory(Paths.getSharedPath('data/$songName/'))) {
+			loadScript('data/$songName/' + file);
 		}
 
 		startCallback();
@@ -1417,6 +1434,7 @@ class PlayState extends MusicBeatState
 			healthLerp = FlxMath.lerp(healthLerp, health, 0.25);
 
 		super.update(elapsed);
+		callScript("update", [elapsed]);
 		
 		if(botplayTxt != null && botplayTxt.visible) {
 			botplaySine += 180 * elapsed;
@@ -1565,6 +1583,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		#end
+		callScript("postUpdate", [elapsed]);
 	}
 
 	// Health icon updaters
@@ -2817,6 +2836,7 @@ class PlayState extends MusicBeatState
 		#if FLX_PITCH FlxG.sound.music.pitch = 1; #end
 		Note.globalRgbShaders = [];
 		backend.NoteTypesConfig.clearNoteTypesData();
+		callScript("destroy");
 		instance = null;
 		super.destroy();
 	}
@@ -2883,6 +2903,57 @@ class PlayState extends MusicBeatState
 		var anim:String = boyfriend.getAnimationName();
 		if(boyfriend.holdTimer > Conductor.stepCrochet * (0.0011 #if FLX_PITCH / FlxG.sound.music.pitch #end) * boyfriend.singDuration && anim.startsWith('sing') && !anim.endsWith('miss'))
 			boyfriend.dance();
+	}
+
+	public function loadScript(file:String)
+	{
+		#if MODDING_ALLOWED
+		var script:PsychHscript = null;
+		var path:String = Paths.getSharedPath(file);
+		try
+		{
+			script = new PsychHscript(null, path);
+			script.executeFunction('create');
+			hscriptArray.push(script);
+		}
+		catch(e:Dynamic)
+		{
+			trace('[Hscript] ERROR ON LOADING ($path) - $e');
+			var script:PsychHscript = cast (Iris.instances.get(path), PsychHscript);
+			if(script != null)
+				script.destroy();
+		}
+		#end
+	}
+
+	public function callScript(funcToCall:String, args:Array<Dynamic> = null, ?ignoreStops:Bool = false):Dynamic {
+		var returnVal:String = "";
+
+		if (hscriptArray.length < 1)
+			return returnVal;
+
+		for(script in hscriptArray)
+		{
+			@:privateAccess
+			if(script == null || !script.exists(funcToCall) || exclusions.contains(script.origin))
+				continue;
+
+			try
+			{
+				var callValue = script.call(funcToCall, args);
+				var myValue:Dynamic = callValue.returnValue;
+
+				returnVal = myValue;
+				break;
+			}
+			catch(e:Dynamic)
+			{
+				trace('[Hscript] ERROR (${script.origin}: $funcToCall) - $e');
+			}
+		}
+		#end
+
+		return returnVal;
 	}
 
 	override function sectionHit()
