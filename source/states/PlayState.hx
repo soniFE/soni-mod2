@@ -2921,6 +2921,8 @@ class PlayState extends MusicBeatState
 		#if MODDING_ALLOWED
 		var script:PsychHscript = null;
 		var path:String = Paths.getSharedPath(file);
+		if (!path.toLowerCase().endsWith(".hx"))
+			return;
 		try
 		{
 			script = new PsychHscript(null, path);
