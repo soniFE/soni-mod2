@@ -324,6 +324,7 @@ class PlayState extends MusicBeatState
 		var stageData:StageFile = StageData.getStageFile(curStage);
 		if(stageData == null) { //Stage couldn't be found, create a dummy stage for preventing a crash
 			stageData = StageData.dummy();
+			curStage = "stage";
 		}
 
 		defaultCamZoom = stageData.defaultZoom;
@@ -364,9 +365,7 @@ class PlayState extends MusicBeatState
 
 		switch (curStage)
 		{
-			case 'stage': new states.stages.StageWeek1(); //Basegame Stage cuz yes
-			case 'town': new states.stages.Town(); //Soni
-			case 'deadcity': new states.stages.Deadcity(); //Soni.exe Fuck go kill yourself man you need to fuck i gonna layp you hahahahahfhhahgagtgargarge
+			case 'stage': new states.stages.StageWeek1(); //Basegame Stage cuz yes null check?? uh idk
 			default:
 				//Scripted Stages
 				loadScript('stages/$curStage.hx');
