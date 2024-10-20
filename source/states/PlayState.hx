@@ -367,7 +367,11 @@ class PlayState extends MusicBeatState
 			case 'stage': new states.stages.StageWeek1(); //Basegame Stage cuz yes
 			case 'town': new states.stages.Town(); //Soni
 			case 'deadcity': new states.stages.Deadcity(); //Soni.exe Fuck go kill yourself man you need to fuck i gonna layp you hahahahahfhhahgagtgargarge
+			default:
+				//Scripted Stages
+				loadScript('stages/$curStage.hx');
 		}
+		callScript("stageCreated");
 
 		if(isPixelStage) {
 			introSoundsSuffix = '-pixel';
@@ -772,6 +776,8 @@ class PlayState extends MusicBeatState
 
 		startedCountdown = true;
 		Conductor.songPosition = -Conductor.crochet * 5;
+
+		callScript("countdownStarted");
 
 		var swagCounter:Int = 0;
 		if (startOnTime > 0) {
@@ -2648,6 +2654,7 @@ class PlayState extends MusicBeatState
 			}
 		}
 		vocals.volume = 0;
+		callScript("noteMiss", [direction]);
 	}
 
 	function opponentNoteHit(note:Note):Void
@@ -2683,6 +2690,8 @@ class PlayState extends MusicBeatState
 
 		if (!note.isSustainNote) invalidateNote(note);
 
+		callScript("opponentNoteHit", [note]);
+		
 		var camStrength = 20;
 		if (!SONG.notes[curSection].mustHitSection) {
 			switch(note.noteData % 4) {
@@ -2717,6 +2726,7 @@ class PlayState extends MusicBeatState
 
 		note.wasGoodHit = true;
 
+		callScript("goodNoteHit", [note]);
 		var camStrength = 20;
 		if (SONG.notes[curSection].mustHitSection) {
 			switch(note.noteData % 4) {
@@ -2857,6 +2867,7 @@ class PlayState extends MusicBeatState
 		}
 
 		super.stepHit();
+		callScript("stepHit");
 
 		if(curStep == lastStepHit) {
 			return;
@@ -2885,6 +2896,7 @@ class PlayState extends MusicBeatState
 
 		characterBopper(curBeat);
 
+		callScript("beatHit");
 		super.beatHit();
 		lastBeatHit = curBeat;
 	}
@@ -2926,34 +2938,15 @@ class PlayState extends MusicBeatState
 		#end
 	}
 
-	public function callScript(funcToCall:String, args:Array<Dynamic> = null, ?ignoreStops:Bool = false):Dynamic {
-		var returnVal:String = "";
-
-		if (hscriptArray.length < 1)
-			return returnVal;
-
-		for(script in hscriptArray)
+	public function callScript(event:String, args:Array<Dynamic> = null)
+	{
+		var returnVal:Dynamic = null;
+		#if MODDING_ALLOWED
+		for (script in hscriptArray)
 		{
-			@:privateAccess
-			if(script == null || !script.exists(funcToCall) || exclusions.contains(script.origin))
-				continue;
-
-			try
-			{
-				var callValue = script.call(funcToCall, args);
-				var myValue:Dynamic = callValue.returnValue;
-
-				returnVal = myValue;
-				break;
-			}
-			catch(e:Dynamic)
-			{
-				trace('[Hscript] ERROR (${script.origin}: $funcToCall) - $e');
-			}
+			script.executeFunction(event, args);
 		}
 		#end
-
-		return returnVal;
 	}
 
 	override function sectionHit()
@@ -2973,6 +2966,7 @@ class PlayState extends MusicBeatState
 				Conductor.bpm = SONG.notes[curSection].bpm;
 		}
 		super.sectionHit();
+		callScript("sectionHit");
 	}
 
 	function strumPlayAnim(isDad:Bool, id:Int, time:Float) {
