@@ -9,6 +9,7 @@ import polymod.Polymod;
 
 import sys.FileSystem;
 import flixel.FlxG;
+import backend.Paths;
 
 class PsychMod
 {
@@ -29,17 +30,20 @@ class PsychMod
 		'mp4' => VIDEO
 	];
 
-	public static var modsToLoad:Array<String> = [];
-	public static var enabledMods = ["fuck"]; // enabled mods
-	public static var modTitles = [];
-	public static var modDescriptions = []; // descriptions
+	public static var curMod = "fuck"; // enabled mods
 
 	public static function initialize():Void
 	{
+		if (!FileSystem.exists(MOD_DIR))
+		{
+			trace('Mods Folder Missing. Creating $MOD_DIR folder...');
+			FileSystem.createDirectory(MOD_DIR);
+			return;
+		}
 		trace("Initializing PsychMod...");
 		initPolymod();
-		trace(enabledMods);
-		Polymod.loadOnlyMods(enabledMods);
+		trace(curMod);
+		Polymod.loadOnlyMods([curMod]);
 	}
 
 	public static function initPolymod()
@@ -70,29 +74,6 @@ class PsychMod
 			// Parsing rules for various data formats.
 			parseRules: getParseRules()
 		});
-		modsToLoad = getAllMods();
-	}
-
-	public static function getAllMods():Array<String>
-	{
-		var daList:Array<String> = [];
-
-		if (!FileSystem.exists('mods'))
-		{
-			trace("Mods Folder Missing. Creating mods folder...");
-			FileSystem.createDirectory('mods');
-		}
-
-		for (i in Polymod.scan({modRoot: MOD_DIR, errorCallback: onPolymodError}))
-		{
-			if (i != null)
-			{
-				daList.push(i.id);
-				modTitles.push(i.title);
-				modDescriptions.push(i.description);
-			}
-		}
-		return daList != null && daList.length > 0 ? daList : [];
 	}
 
 	public static function getParseRules():ParseRules
@@ -109,8 +90,7 @@ class PsychMod
 				"default" => "./",
 				"songs" => "./songs",
 				"shared" => "./shared",
-				"videos" => "./videos",
-				"weeks" => "./weeks",
+				"videos" => "./videos"
 			]
 		}
 	}
@@ -138,6 +118,7 @@ class PsychMod
 
 class PsychModBackend extends OpenFLBackend
 {
+	//idk but it here uh what
 	public function new()
 		super();
 
