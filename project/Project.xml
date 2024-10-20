@@ -87,7 +87,7 @@
 	<haxelib name="flxanimate"/>
 
 	<!--Modding Things-->
-	<haxelib name="polymod" if="MODDING_ALLOWED"/>
+	<!--<haxelib name="polymod" if="MODDING_ALLOWED"/>-->
 	<haxelib name="hscript-iris" if="MODDING_ALLOWED"/>
 
 	<define name="CUSTOM_CLASSES" />
