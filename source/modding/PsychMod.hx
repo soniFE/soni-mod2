@@ -1,17 +1,16 @@
-package backend;
+package modding;
 
-#if FEATURE_MODCORE
 import polymod.backends.OpenFLBackend;
 import polymod.backends.PolymodAssets.PolymodAssetType;
 import polymod.format.ParseRules.LinesParseFormat;
 import polymod.format.ParseRules.TextFileFormat;
 import polymod.format.ParseRules;
 import polymod.Polymod;
-#end
+
 import sys.FileSystem;
 import flixel.FlxG;
 
-class PsychCore
+class PsychMod
 {
 	private static final MOD_DIR:String = 'mods';
 
@@ -23,21 +22,23 @@ class PsychCore
 		'png' => IMAGE,
 		'xml' => TEXT,
 		'txt' => TEXT,
+		'hx' => TEXT,
+		'json' => TEXT,
 		'ttf' => FONT,
 		'otf' => FONT,
 		'mp4' => VIDEO
 	];
 
 	public static var modsToLoad:Array<String> = [];
-	public static var enabledMods = []; // enabled mods
+	public static var enabledMods = ["fuck"]; // enabled mods
 	public static var modTitles = [];
 	public static var modDescriptions = []; // descriptions
 
 	public static function initialize():Void
 	{
-		Debug.logInfo("Initializing PsychMod...");
+		trace("Initializing PsychMod...");
 		initPolymod();
-		Debug.logTrace(enabledMods);
+		trace(enabledMods);
 		Polymod.loadOnlyMods(enabledMods);
 	}
 
@@ -61,17 +62,15 @@ class PsychCore
 
 			// Use a custom backend so we can get a picture of what's going on,
 			// or even override behavior ourselves.
-			customBackend: ModCoreBackend,
+			customBackend: PsychModBackend,
 
 			// List of filenames to ignore in mods. Use the default list to ignore the metadata file, etc.
 			ignoredFiles: Polymod.getDefaultIgnoreList(),
 
 			// Parsing rules for various data formats.
-			parseRules: getParseRules(),
-			customFilesystem: polymod.fs.ZipFileSystem
+			parseRules: getParseRules()
 		});
-		ModCore.modsToLoad = getAllMods();
-		enabledMods = FlxG.save.data.enabledMods;
+		modsToLoad = getAllMods();
 	}
 
 	public static function getAllMods():Array<String>
@@ -80,8 +79,8 @@ class PsychCore
 
 		if (!FileSystem.exists('mods'))
 		{
-			Debug.logTrace("Mods Folder Missing. Skipping.");
-			return [];
+			trace("Mods Folder Missing. Creating mods folder...");
+			FileSystem.createDirectory('mods');
 		}
 
 		for (i in Polymod.scan({modRoot: MOD_DIR, errorCallback: onPolymodError}))
@@ -107,11 +106,11 @@ class PsychCore
 	{
 		return {
 			assetLibraryPaths: [
-				"default" => "./shared", // ./preload
+				"default" => "./",
 				"songs" => "./songs",
 				"shared" => "./shared",
 				"videos" => "./videos",
-				"weeks" => "./",
+				"weeks" => "./weeks",
 			]
 		}
 	}
@@ -127,11 +126,11 @@ class PsychCore
 				switch (error.severity)
 				{
 					case NOTICE:
-						Debug.logInfo(error.message, null);
+						trace(error.message, null);
 					case WARNING:
-						Debug.logWarn(error.message, null);
+						trace(error.message, null);
 					case ERROR:
-						Debug.logError(error.message, null);
+						trace(error.message, null);
 				}
 		}
 	}

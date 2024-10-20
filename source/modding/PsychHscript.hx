@@ -21,11 +21,6 @@ class PsychHscript extends Iris
 		if (filePath != null && filePath.length > 0)
 		{
 			this.origin = filePath;
-			#if MODS_ALLOWED
-			var myFolder:Array<String> = filePath.split('/');
-			if(myFolder[0] + '/' == Paths.mods() && (Mods.currentModDirectory == myFolder[1] || Mods.getGlobalMods().contains(myFolder[1]))) //is inside mods folder
-				this.modFolder = myFolder[1];
-			#end
 		}
 
 		var scriptThing:String = file;
@@ -77,23 +72,17 @@ class PsychHscript extends Iris
 	}
 
 	public function executeCode(?funcToRun:String = null, ?funcArgs:Array<Dynamic> = null):IrisCall {
-		if (funcToRun == null) return null;
-
-		if(!exists(funcToRun)) {
-			return null;
-		}
-
-		try
-		{
+		if (funcToRun == null || !exists(funcToRun)) return null;
+	
+		try {
 			final callValue:IrisCall = call(funcToRun, funcArgs);
 			return callValue.returnValue;
-		}
-		catch(e:Dynamic)
-		{
+		} catch(e:Dynamic) {
 			trace('ERROR ${funcToRun}: $e');
 		}
 		return null;
 	}
+	
 
 	public function executeFunction(funcToRun:String = null, funcArgs:Array<Dynamic> = null):IrisCall {
 		if (funcToRun == null || !exists(funcToRun)) return null;
@@ -131,16 +120,16 @@ class CustomFlxColor {
 	public static var MAGENTA(default, null):Int = FlxColor.MAGENTA;
 	public static var CYAN(default, null):Int = FlxColor.CYAN;
 
-	public static function fromInt(Value:Int):Int 
+	public static inline function fromInt(Value:Int):Int 
 	{
 		return cast FlxColor.fromInt(Value);
 	}
 
-	public static function fromRGB(Red:Int, Green:Int, Blue:Int, Alpha:Int = 255):Int
+	public static inline function fromRGB(Red:Int, Green:Int, Blue:Int, Alpha:Int = 255):Int
 	{
 		return cast FlxColor.fromRGB(Red, Green, Blue, Alpha);
 	}
-	public static function fromRGBFloat(Red:Float, Green:Float, Blue:Float, Alpha:Float = 1):Int
+	public static inline function fromRGBFloat(Red:Float, Green:Float, Blue:Float, Alpha:Float = 1):Int
 	{	
 		return cast FlxColor.fromRGBFloat(Red, Green, Blue, Alpha);
 	}
@@ -150,15 +139,15 @@ class CustomFlxColor {
 		return cast FlxColor.fromCMYK(Cyan, Magenta, Yellow, Black, Alpha);
 	}
 
-	public static function fromHSB(Hue:Float, Sat:Float, Brt:Float, Alpha:Float = 1):Int
+	public static inline function fromHSB(Hue:Float, Sat:Float, Brt:Float, Alpha:Float = 1):Int
 	{	
 		return cast FlxColor.fromHSB(Hue, Sat, Brt, Alpha);
 	}
-	public static function fromHSL(Hue:Float, Sat:Float, Light:Float, Alpha:Float = 1):Int
+	public static inline function fromHSL(Hue:Float, Sat:Float, Light:Float, Alpha:Float = 1):Int
 	{	
 		return cast FlxColor.fromHSL(Hue, Sat, Light, Alpha);
 	}
-	public static function fromString(str:String):Int
+	public static inline function fromString(str:String):Int
 	{
 		return cast FlxColor.fromString(str);
 	}

@@ -14,7 +14,7 @@ import openfl.events.Event;
 import openfl.display.StageScaleMode;
 import lime.app.Application;
 import states.TitleState;
-//import backend.PsychMod;
+import modding.PsychMod;
 
 #if linux
 import lime.graphics.Image;
@@ -99,7 +99,9 @@ class Main extends Sprite
 
         setupShaderCoordsFix();
 
-        //PsychMod.init();
+        #if MODDING_ALLOWED
+        PsychMod.initialize();
+        #end
     }
 
     private function initializeGameSystems():Void
