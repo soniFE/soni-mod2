@@ -418,6 +418,9 @@ class PlayState extends MusicBeatState
 		comboGroup = new FlxSpriteGroup();
 		comboGroup.ID = 0;
 		add(comboGroup);
+		comboGroup.x = 600;
+		comboGroup.y = 400;
+
 		noteGroup = new FlxTypedGroup<FlxBasic>();
 		add(noteGroup);
 		uiGroup = new FlxSpriteGroup();
@@ -521,7 +524,7 @@ class PlayState extends MusicBeatState
 
 		uiGroup.cameras = [camHUD];
 		noteGroup.cameras = [camHUD];
-		comboGroup.cameras = [camHUD];
+		comboGroup.cameras = [camGame];
 
 		startingSong = true;
 
