@@ -50,11 +50,11 @@
 
 	<!-- _____________________________ Path Settings ____________________________ -->
 
-	<set name="BUILD_DIR" value="../export/debug" if="debug" />
-	<set name="BUILD_DIR" value="../export/release" unless="debug" />
-	<set name="BUILD_DIR" value="../export/32bit" if="32bits" />
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" unless="debug" />
+	<set name="BUILD_DIR" value="export/32bit" if="32bits" />
 
-	<classpath name="../source" />
+	<classpath name="source" />
 
 	<!-- __________________________ Game Assets & Etc. __________________________ -->
 	
@@ -62,17 +62,17 @@
 	<define name="CRASH_HANDLER" if="desktop release" />
 
 	<!-- Assets -->
-	<assets path="../assets/fonts" rename="assets/fonts"/>
-	<assets path="../assets/shared"        exclude="*.ogg" if="web" rename="assets/shared"/>
-	<assets path="../assets/shared"        exclude="*.mp3" unless="web" rename="assets/shared"/>
-	<assets path="../assets/videos"        library="videos"        if="VIDEOS_ALLOWED" rename="assets/videos"/>
-	<assets path="../assets/songs"         library="songs"         exclude="*.ogg" if="web" rename="assets/songs"/>
-	<assets path="../assets/songs"         library="songs"         exclude="*.mp3" unless="web" rename="assets/songs"/>
+	<assets path="assets/fonts" rename="assets/fonts"/>
+	<assets path="assets/shared"        exclude="*.ogg" if="web"/>
+	<assets path="assets/shared"        exclude="*.mp3" unless="web"/>
+	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
 
 	<library name="videos"        preload="true" if="VIDEOS_ALLOWED"/>
 	<library name="songs"         preload="true" />
 
-	<template path='../mods' rename="mods"/>
+	<template path='mods' rename="mods"/>
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
@@ -156,10 +156,10 @@
 
 	<!--Place custom nodes like icons here (higher priority to override the HaxeFlixel icon)-->
 
-	<assets path='resource/iconOG.png' rename='icon.png' if="linux" />
+	<assets path='project/resource/iconOG.png' rename='icon.png' if="linux" />
 	
-	<icon path="resource/icon16.png" size='16'/>
-	<icon path="resource/icon32.png" size='32'/>
-	<icon path="resource/icon64.png" size='64'/>
-	<icon path="resource/iconOG.png" />
+	<icon path="project/resource/icon16.png" size='16'/>
+	<icon path="project/resource/icon32.png" size='32'/>
+	<icon path="project/resource/icon64.png" size='64'/>
+	<icon path="project/resource/iconOG.png" />
 </project>
