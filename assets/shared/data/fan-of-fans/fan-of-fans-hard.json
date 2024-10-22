@@ -1,0 +1,4733 @@
+{
+	"song": {
+		"stage": "alleyog",
+		"events": [
+			[
+				13714.2857142857,
+				[
+					[
+						"Change Scroll Speed",
+						"1.56",
+						"0.54"
+					]
+				]
+			],
+			[
+				14142.8571428571,
+				[
+					[
+						"Switch Stage",
+						"alley",
+						""
+					],
+					[
+						"Camera Flash",
+						"false,-1",
+						"10,camGame"
+					],
+					[
+						"Camera Modulo Change",
+						"1",
+						"1"
+					],
+					[
+						"Change Character",
+						"0,0",
+						"soni"
+					],
+					[
+						"Change Character",
+						"1,0",
+						"bf"
+					]
+				]
+			],
+			[
+				40285.7142857143,
+				[
+					[
+						"Cinematics (Bar)",
+						"30,Circ",
+						"Out,1"
+					]
+				]
+			],
+			[
+				41142.8571428572,
+				[
+					[
+						"Switch Stage",
+						"alleyog",
+						""
+					],
+					[
+						"Camera Modulo Change",
+						"4",
+						"1"
+					],
+					[
+						"Change Character",
+						"0,0",
+						"soni-old"
+					],
+					[
+						"Change Character",
+						"1,0",
+						"bfog"
+					],
+					[
+						"Change Scroll Speed",
+						"1",
+						"1.61"
+					],
+					[
+						"Camera Flash",
+						"false,-1",
+						"10,camGame"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Cinematics (Bar)",
+						"0,Linear",
+						"InOut,7"
+					]
+				]
+			],
+			[
+				53892.8571428571,
+				[
+					[
+						"Change Default Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				54857.1428571429,
+				[
+					[
+						"Camera Flash",
+						"false,-1",
+						"10,camGame"
+					],
+					[
+						"Switch Stage",
+						"alley",
+						""
+					]
+				]
+			],
+			[
+				82714.2857142857,
+				[
+					[
+						"Camera Flash",
+						"false,-1",
+						"10,camGame"
+					],
+					[
+						"Change Character",
+						"0,0",
+						"soni"
+					],
+					[
+						"Change Character",
+						"1,0",
+						"bf"
+					],
+					[
+						"Camera Modulo Change",
+						"1",
+						"1"
+					],
+					[
+						"Change Scroll Speed",
+						"1.56",
+						"1.61"
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Camera Flash",
+						"false,-1",
+						"10,camGame"
+					]
+				]
+			],
+			[
+				123428.571428571,
+				[
+					[
+						"Camera Flash",
+						"false,-16777216",
+						"9999,camHUD"
+					]
+				]
+			]
+		],
+		"speed": 1.8,
+		"player1": "bfog",
+		"player2": "soni-old",
+		"notes": [
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						0,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						107.142857142857,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						214.2855,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						428.571,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						642.8565,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						749.99925,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						1071.4275,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						1178.57025,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						1285.713,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						1499.9985,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						1714.284,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						1821.42675,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						1928.5695,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						2142.855,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						2357.1405,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						2464.28325,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						2785.7115,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						2999.997,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						3214.2825,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						3428.568,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						3535.71075,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						3642.8535,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						3857.139,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						4071.4245,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						4178.56725,
+						1,
+						258.035456250001,
+						"Beatbox Note"
+					],
+					[
+						4499.9955,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						4607.13825,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						4714.281,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						4928.5665,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						5142.852,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						5250,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						5357.1375,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						5571.423,
+						0,
+						349.10679375,
+						"Beatbox Note"
+					],
+					[
+						5999.994,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						6107.13675,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						6214.27949999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						6428.56499999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						6642.85049999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						6857.13599999999,
+						3,
+						1441.96284375,
+						"Beatbox Note"
+					],
+					[
+						6857.13599999999,
+						6,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						8571.42,
+						6,
+						1441.96284375001,
+						"Beatbox Note"
+					],
+					[
+						6964.28571428571,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						7071.42857142857,
+						3,
+						107.142857142857,
+						"Beatbox Note"
+					],
+					[
+						7285.71428571429,
+						2,
+						107.142857142857,
+						"Beatbox Note"
+					],
+					[
+						7500,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						7607.13524999999,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						7928.56349999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						8035.70624999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						8142.84899999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						8357.13449999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						8571.42,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						10285.704,
+						5,
+						713.392143750005,
+						"Beatbox Note"
+					],
+					[
+						8678.56275,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						8785.7055,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						8999.991,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						9214.2765,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						9321.41925,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						9642.8475,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						9857.133,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						10071.4185,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						10285.704,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						11142.846,
+						6,
+						713.392143750003,
+						"Beatbox Note"
+					],
+					[
+						11999.988,
+						4,
+						713.392143750007,
+						"Beatbox Note"
+					],
+					[
+						10392.84675,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						10499.9895,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						10714.275,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						10928.5605,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						11035.7142857143,
+						0,
+						258.035456250003,
+						"Beatbox Note"
+					],
+					[
+						11357.1315,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						11464.27425,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						11571.417,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						11785.7142857143,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						12857.13,
+						1,
+						713.392143750008,
+						"Beatbox Note"
+					],
+					[
+						13714.272,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12000,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12107.1428571429,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12214.2857142857,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12321.4285714286,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12428.559,
+						6,
+						107.142857142859,
+						"Beatbox Note"
+					],
+					[
+						12642.8571428571,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12750,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12857.13,
+						4,
+						0,
+						"Beatbox Note"
+					],
+					[
+						12964.2857142857,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13071.4285714286,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13178.55825,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13285.7142857143,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13392.8571428571,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13500,
+						4,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13607.12925,
+						6,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						13821.4285714286,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						13928.5575,
+						3,
+						107.142857142857,
+						"Beatbox Note"
+					],
+					[
+						14142.843,
+						1,
+						107.142857142857,
+						"Beatbox Note"
+					],
+					[
+						14357.1285,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						14464.27125,
+						3,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						14785.6995,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						14892.84225,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						14999.985,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						15214.2705,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						15428.556,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						15642.8415,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						15749.98425,
+						0,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						16071.4125,
+						2,
+						349.106793749996,
+						"Beatbox Note"
+					],
+					[
+						16499.9835,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						16607.12625,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						16714.269,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						16928.5545,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						17142.84,
+						1,
+						531.24946875,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						17785.6965,
+						0,
+						531.24946875,
+						"Beatbox Note"
+					],
+					[
+						18428.553,
+						2,
+						349.106793749997,
+						"Beatbox Note"
+					],
+					[
+						18857.124,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						19071.4095,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19178.55225,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19285.695,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19392.83775,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19499.9805,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19607.12325,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19821.40875,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						19928.5515,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20035.69425,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20142.837,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20249.97975,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20357.1225,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20464.26525,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20571.408,
+						0,
+						1077.67749374999,
+						"Beatbox Note"
+					],
+					[
+						20571.408,
+						6,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						21857.121,
+						5,
+						349.106793749994,
+						"Beatbox Note"
+					],
+					[
+						22285.692,
+						6,
+						349.106793749997,
+						"Beatbox Note"
+					],
+					[
+						20785.7142857143,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						20892.83625,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						21107.1428571429,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						21321.40725,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						21535.69275,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						21749.97825,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						21964.26375,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						22071.4065,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						22178.54925,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						22285.692,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						22714.263,
+						7,
+						349.106793749997,
+						"Beatbox Note"
+					],
+					[
+						23142.834,
+						5,
+						349.106793749994,
+						"Beatbox Note"
+					],
+					[
+						23571.405,
+						4,
+						349.106793749997,
+						"Beatbox Note"
+					],
+					[
+						23999.976,
+						7,
+						1077.67749374999,
+						"Beatbox Note"
+					],
+					[
+						22499.9775,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						22607.1428571429,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						22821.40575,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23035.69125,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23249.97675,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23357.1195,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23464.26225,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23571.405,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23785.6905,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23892.83325,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						23999.976,
+						3,
+						349.106793749997,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						25285.689,
+						4,
+						0,
+						"Beatbox Note"
+					],
+					[
+						25499.9745,
+						5,
+						895.534818749995,
+						"Beatbox Note"
+					],
+					[
+						24428.547,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						24535.68975,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						24642.8325,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						24857.118,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						25071.4035,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						25285.689,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						25499.9745,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						25714.26,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						26571.402,
+						3,
+						713.392143749996,
+						"Beatbox Note"
+					],
+					[
+						27428.544,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						25928.5455,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						26142.831,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						26357.1165,
+						4,
+						0,
+						"Beatbox Note"
+					],
+					[
+						26571.402,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						26785.6875,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						26892.8302499999,
+						7,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						27214.2584999999,
+						6,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						27535.7142857143,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						27642.8294999999,
+						3,
+						107.142857142851,
+						"Beatbox Note"
+					],
+					[
+						27857.1149999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						28071.4004999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						28178.5432499999,
+						1,
+						258.035456250003,
+						"Beatbox Note"
+					],
+					[
+						28499.9714999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						28607.1142499999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						28714.2569999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						28928.5424999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						29142.8571428571,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						29250,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						29357.1134999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						29571.3989999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						29785.6844999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						29892.8272499999,
+						2,
+						258.035456250003,
+						"Beatbox Note"
+					],
+					[
+						30214.2554999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						30428.5409999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						30642.8264999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						30857.1119999999,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						30964.2547499999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						31071.3974999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						31285.6829999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						31499.9684999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						31607.1112499999,
+						0,
+						258.035456249985,
+						"Beatbox Note"
+					],
+					[
+						31928.5394999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						32035.6822499999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						32142.8249999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						32357.1104999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						32571.3959999999,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						32678.5387499999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						32785.6814999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						32999.9669999999,
+						2,
+						349.106793749997,
+						"Beatbox Note"
+					],
+					[
+						33428.5379999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						33535.6807499999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						33642.8234999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						33857.1089999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						34071.3944999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						34285.6799999999,
+						4,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						34392.8227499999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						34499.9654999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						34714.2509999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						34928.5364999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						35035.6792499999,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						35357.1074999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						35464.2857142857,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						35571.4285714286,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						35785.6784999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						35999.9639999999,
+						3,
+						531.24946875,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						36642.8204999999,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						36749.9632499999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						36857.1059999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						37071.3914999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						37178.5342499999,
+						3,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						37499.9624999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						37714.2857142857,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						37821.4285714286,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						37928.5334999999,
+						1,
+						107.142857142855,
+						"Beatbox Note"
+					],
+					[
+						38142.8189999999,
+						3,
+						107.142857142855,
+						"Beatbox Note"
+					],
+					[
+						38357.1044999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						38464.2472499999,
+						0,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						38785.7142857143,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						38892.8182499999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						39000,
+						0,
+						107.142857142855,
+						"Beatbox Note"
+					],
+					[
+						39214.2464999999,
+						1,
+						107.142857142855,
+						"Beatbox Note"
+					],
+					[
+						39428.5319999999,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						41142.8159999999,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						39535.7142857143,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						39642.8174999999,
+						0,
+						107.142857142862,
+						"Beatbox Note"
+					],
+					[
+						39857.1029999999,
+						2,
+						349.106793749997,
+						"Beatbox Note"
+					],
+					[
+						40285.6739999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						40392.8167499999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						40500,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						40714.2449999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						40928.5304999999,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						41357.1014999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						41464.2442499999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						41571.4285714286,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						41785.6724999999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						41999.9579999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42107.1007499999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42214.2434999999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42321.3862499999,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42535.67175,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42642.8144999999,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42749.9572499999,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						42857.1,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						43071.3855,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						43178.52825,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						43392.81375,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						43607.09925,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						43821.38475,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						43928.5275,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						43986.56315625,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44035.67025,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44142.813,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44249.95575,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44357.0985,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44464.24125,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44571.384,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						44785.6695,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44892.81225,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						44999.955,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						45107.09775,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						45325.84753125,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						45535.66875,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						45749.95425,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						45964.23975,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						46071.3825,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						46285.668,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						46499.9535,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						46714.239,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						46821.38175,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						46928.5245,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47035.66725,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47249.95275,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47357.0955,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47571.381,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47785.6665,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47839.237875,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47892.80925,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						47999.952,
+						6,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						48214.2375,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						48321.38025,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						48535.66575,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						48642.8085,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						48749.95125,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						48964.23675,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						49178.52225,
+						1,
+						432.588853124995,
+						"Beatbox Note"
+					],
+					[
+						49714.236,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						49928.5215,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						50035.66425,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						50249.94975,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						50464.23525,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						50678.52075,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						50892.80625,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						51107.09175,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						51214.2345,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						51321.37725,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						51428.52,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						51642.8055,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						51857.091,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						52071.3765,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						52285.662,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						52499.9475,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						52607.0902500001,
+						2,
+						250.446178124999,
+						"Beatbox Note"
+					],
+					[
+						52928.5185,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						53142.8040000001,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						53357.0895000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						53464.2322500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						53678.5177500001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						53785.6605000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						53892.8032500001,
+						2,
+						796.874203125,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						55714.2300000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						55928.5155000001,
+						1,
+						341.517515625004,
+						"Beatbox Note"
+					],
+					[
+						56357.0865000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						56571.3720000001,
+						1,
+						341.517515625004,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						56999.9430000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						57214.2285000001,
+						1,
+						341.517515625004,
+						"Beatbox Note"
+					],
+					[
+						57642.7995000001,
+						0,
+						523.660190625,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						58928.5125000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						59142.7980000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						59357.0835000001,
+						1,
+						341.517515625004,
+						"Beatbox Note"
+					],
+					[
+						59785.6545000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						59999.9400000001,
+						2,
+						341.517515625012,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						60428.5110000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						60642.7965000001,
+						2,
+						341.517515625012,
+						"Beatbox Note"
+					],
+					[
+						61071.3675000001,
+						1,
+						523.660190625,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						62571.3660000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						62785.6515000001,
+						2,
+						341.517515624982,
+						"Beatbox Note"
+					],
+					[
+						63214.2225000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						63428.5080000001,
+						2,
+						341.517515624982,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						63857.0790000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						64071.3645000001,
+						2,
+						341.517515624997,
+						"Beatbox Note"
+					],
+					[
+						64499.9355000001,
+						0,
+						523.660190625014,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						65785.6485000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						65999.9340000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						66214.2195000001,
+						2,
+						341.51751562499,
+						"Beatbox Note"
+					],
+					[
+						66642.7905000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						66857.0760000001,
+						3,
+						341.51751562499,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						67285.6470000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						67499.9325,
+						3,
+						341.51751562499,
+						"Beatbox Note"
+					],
+					[
+						67928.5035,
+						1,
+						523.660190625,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						82285.632,
+						7,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						82392.8571428571,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						82499.9175000001,
+						3,
+						107.142857142855,
+						"Beatbox Note"
+					],
+					[
+						82714.2030000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						82928.4885000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						83035.6312500001,
+						3,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						83357.0595000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						83464.2022500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						83571.3450000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						83785.6305000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						83999.9160000001,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						84214.2015000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						84321.3442500001,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						84642.7725000001,
+						3,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						85071.3435000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						85178.4862500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						85285.6290000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						85499.9145000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						85714.2000000001,
+						0,
+						531.24946875,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						86357.0565000002,
+						3,
+						531.24946875,
+						"Beatbox Note"
+					],
+					[
+						86999.9130000002,
+						0,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						87428.4840000002,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						87642.7695000002,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						87749.9122500002,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						87857.0550000002,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						87964.1977500002,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88071.3405000002,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88178.4832500002,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88392.7687500002,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88499.9115000002,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88607.0542500002,
+						4,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88714.1970000002,
+						6,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88821.3397500002,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						88928.4825000003,
+						4,
+						0,
+						"Beatbox Note"
+					],
+					[
+						89035.6252500003,
+						5,
+						0,
+						"Beatbox Note"
+					],
+					[
+						89142.7680000003,
+						7,
+						1077.67749375002,
+						"Beatbox Note"
+					],
+					[
+						89142.7680000003,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						90428.4810000003,
+						4,
+						349.106793750019,
+						"Beatbox Note"
+					],
+					[
+						90857.0520000003,
+						5,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						89357.0535000003,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						89464.1962500003,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						89678.4817500003,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						89892.7672500003,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						90107.0527500003,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						90321.3382500003,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						90535.6237500003,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						90642.7665000003,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						90749.9092500003,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						90857.0520000003,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						91285.6230000004,
+						6,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						91714.1940000004,
+						4,
+						349.106793750019,
+						"Beatbox Note"
+					],
+					[
+						92142.7650000004,
+						7,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						92571.3360000004,
+						6,
+						1077.67749375002,
+						"Beatbox Note"
+					],
+					[
+						91071.3375000003,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						91178.4802500003,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						91392.7657500004,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						91607.0512500004,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						91821.3367500004,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						91928.4795000004,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						92035.6222500004,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						92142.7650000004,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						92357.0505000004,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						92464.1932500004,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						92571.3360000004,
+						1,
+						349.106793750005,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						93857.0490000005,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						94071.3345000004,
+						5,
+						895.534818750006,
+						"Beatbox Note"
+					],
+					[
+						92999.9070000004,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						93107.0497500004,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						93214.1925000004,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						93428.4780000004,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						93642.7635000004,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						93857.0490000005,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						94071.3345000004,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						94285.6200000004,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						95142.7620000005,
+						6,
+						713.39214375001,
+						"Beatbox Note"
+					],
+					[
+						95999.9040000005,
+						7,
+						0,
+						"Beatbox Note"
+					],
+					[
+						94499.9055000004,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						94714.1910000005,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						94928.4765000005,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						95142.7620000005,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						95357.0475000005,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						95464.1902500005,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						95785.6185000005,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						96107.0467500005,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						96214.1895000005,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						96428.4750000005,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						96642.7605000005,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						96749.9032500005,
+						0,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						97071.3315000005,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						97178.4742500005,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						97285.6170000005,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						97499.9025000005,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						97714.1880000005,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						97821.3307500006,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						97928.4735000006,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						98142.7590000006,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						98357.0445000006,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						98464.1872500006,
+						2,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						98785.6155000006,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						98999.9010000006,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						99214.1865000006,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						99428.4720000006,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						99535.6147500006,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						99642.7575000006,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						99857.0430000006,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						100071.328500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						100178.471250001,
+						1,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						100499.899500001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						100607.042250001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						100714.185000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						100928.470500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						101142.756000001,
+						3,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						101249.898750001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						101357.041500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						101571.327000001,
+						0,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						101999.898000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						102107.040750001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						102214.183500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						102428.469000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						102642.754500001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						102857.040000001,
+						0,
+						1441.96284375005,
+						"Beatbox Note"
+					],
+					[
+						102857.040000001,
+						7,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						104571.324000001,
+						7,
+						1441.96284375004,
+						"Beatbox Note"
+					],
+					[
+						102964.182750001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						103071.325500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						103285.611000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						103499.896500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						103607.039250001,
+						0,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						103928.467500001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						104035.610250001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						104142.753000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						104357.038500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						104571.324000001,
+						1,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						106285.608000001,
+						6,
+						713.392143750025,
+						"Beatbox Note"
+					],
+					[
+						104678.466750001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						104785.609500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						104999.895000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						105214.180500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						105321.323250001,
+						1,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						105642.751500001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						105857.037000001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						106071.322500001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						106285.608000001,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						107142.750000001,
+						7,
+						713.39214375001,
+						"Beatbox Note"
+					],
+					[
+						107999.892000001,
+						4,
+						713.392143750039,
+						"Beatbox Note"
+					],
+					[
+						106392.750750001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						106499.893500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						106714.179000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						106928.464500001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						107035.607250001,
+						3,
+						258.03545625,
+						"Beatbox Note"
+					],
+					[
+						107357.035500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						107464.178250001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						107571.321000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						107785.606500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						107999.892000001,
+						2,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						108857.034000001,
+						5,
+						713.392143750054,
+						"Beatbox Note"
+					],
+					[
+						109714.176000001,
+						6,
+						713.392143750025,
+						"Beatbox Note"
+					],
+					[
+						108107.034750001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108214.177500001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108321.320250001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108428.463000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108642.748500001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108749.891250001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108857.034000001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						108964.176750001,
+						3,
+						0,
+						"Beatbox Note"
+					],
+					[
+						109071.319500001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						109178.462250001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						109285.605000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						109392.747750001,
+						2,
+						0,
+						"Beatbox Note"
+					],
+					[
+						109499.890500001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						109607.033250001,
+						0,
+						0,
+						"Beatbox Note"
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						110571.318000001,
+						3,
+						713.39214375001,
+						"Beatbox Note"
+					],
+					[
+						111428.460000001,
+						0,
+						349.106793749932,
+						"Beatbox Note"
+					],
+					[
+						109714.285714286,
+						5,
+						0,
+						null
+					],
+					[
+						109928.571428571,
+						5,
+						0,
+						null
+					],
+					[
+						110142.857142857,
+						4,
+						0,
+						null
+					],
+					[
+						110357.142857143,
+						6,
+						0,
+						null
+					],
+					[
+						110571.428571429,
+						4,
+						0,
+						null
+					],
+					[
+						110678.571428571,
+						7,
+						0,
+						null
+					],
+					[
+						110785.714285714,
+						5,
+						0,
+						null
+					],
+					[
+						111000,
+						4,
+						0,
+						null
+					],
+					[
+						111214.285714286,
+						6,
+						0,
+						null
+					],
+					[
+						111321.428571429,
+						4,
+						0,
+						null
+					],
+					[
+						111428.571428571,
+						7,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						111857.031000001,
+						1,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						112285.602000001,
+						0,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						112714.173000001,
+						3,
+						349.106793750005,
+						"Beatbox Note"
+					],
+					[
+						113142.744000001,
+						2,
+						713.392143750039,
+						"Beatbox Note"
+					],
+					[
+						111642.857142857,
+						7,
+						0,
+						null
+					],
+					[
+						111857.142857143,
+						6,
+						0,
+						null
+					],
+					[
+						112071.428571429,
+						4,
+						0,
+						null
+					],
+					[
+						112178.571428571,
+						5,
+						0,
+						null
+					],
+					[
+						112285.714285714,
+						4,
+						0,
+						null
+					],
+					[
+						112500,
+						6,
+						0,
+						null
+					],
+					[
+						112714.285714286,
+						4,
+						0,
+						null
+					],
+					[
+						112928.571428571,
+						7,
+						0,
+						null
+					],
+					[
+						113035.714285714,
+						4,
+						0,
+						null
+					],
+					[
+						113142.857142857,
+						5,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						113357.142857143,
+						6,
+						0,
+						null
+					],
+					[
+						113464.285714286,
+						7,
+						0,
+						null
+					],
+					[
+						113571.428571429,
+						4,
+						0,
+						null
+					],
+					[
+						113785.714285714,
+						6,
+						0,
+						null
+					],
+					[
+						113892.857142857,
+						7,
+						0,
+						null
+					],
+					[
+						114107.142857143,
+						4,
+						0,
+						null
+					],
+					[
+						114214.285714286,
+						6,
+						0,
+						null
+					],
+					[
+						114321.428571429,
+						5,
+						0,
+						null
+					],
+					[
+						114428.571428571,
+						4,
+						0,
+						null
+					],
+					[
+						114535.714285714,
+						7,
+						0,
+						null
+					],
+					[
+						114642.857142857,
+						4,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						114857.142857143,
+						2,
+						0,
+						null
+					],
+					[
+						115071.428571429,
+						2,
+						0,
+						null
+					],
+					[
+						115178.571428571,
+						3,
+						0,
+						null
+					],
+					[
+						115285.714285714,
+						0,
+						0,
+						null
+					],
+					[
+						115500,
+						1,
+						0,
+						null
+					],
+					[
+						115714.285714286,
+						2,
+						0,
+						null
+					],
+					[
+						115928.571428571,
+						1,
+						0,
+						null
+					],
+					[
+						116142.857142857,
+						0,
+						0,
+						null
+					],
+					[
+						116357.142857143,
+						2,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						117428.454000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						117642.739500001,
+						3,
+						341.517515624975,
+						"Beatbox Note"
+					],
+					[
+						118071.310500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						118285.596000001,
+						3,
+						341.51751562499,
+						"Beatbox Note"
+					],
+					[
+						116571.428571429,
+						5,
+						0,
+						null
+					],
+					[
+						116785.714285714,
+						5,
+						0,
+						null
+					],
+					[
+						117000,
+						4,
+						0,
+						null
+					],
+					[
+						117214.285714286,
+						6,
+						0,
+						null
+					],
+					[
+						117428.571428571,
+						4,
+						0,
+						null
+					],
+					[
+						117535.714285714,
+						7,
+						0,
+						null
+					],
+					[
+						117642.857142857,
+						5,
+						0,
+						null
+					],
+					[
+						117857.142857143,
+						4,
+						0,
+						null
+					],
+					[
+						118071.428571429,
+						6,
+						0,
+						null
+					],
+					[
+						118178.571428571,
+						4,
+						0,
+						null
+					],
+					[
+						118285.714285714,
+						7,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						118714.167000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						118928.452500001,
+						3,
+						341.517515624975,
+						"Beatbox Note"
+					],
+					[
+						119357.023500001,
+						2,
+						523.660190624985,
+						"Beatbox Note"
+					],
+					[
+						118500,
+						7,
+						0,
+						null
+					],
+					[
+						118714.285714286,
+						6,
+						0,
+						null
+					],
+					[
+						118928.571428571,
+						4,
+						0,
+						null
+					],
+					[
+						119035.714285714,
+						5,
+						0,
+						null
+					],
+					[
+						119142.857142857,
+						4,
+						0,
+						null
+					],
+					[
+						119357.142857143,
+						6,
+						0,
+						null
+					],
+					[
+						119571.428571429,
+						4,
+						0,
+						null
+					],
+					[
+						119785.714285714,
+						7,
+						0,
+						null
+					],
+					[
+						119892.857142857,
+						4,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						120642.736500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						120857.022000001,
+						1,
+						0,
+						"Beatbox Note"
+					],
+					[
+						121071.307500001,
+						1,
+						341.517515625004,
+						"Beatbox Note"
+					],
+					[
+						121499.878500001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						121714.164000001,
+						3,
+						341.517515625033,
+						"Beatbox Note"
+					],
+					[
+						120000,
+						5,
+						0,
+						null
+					],
+					[
+						120214.285714286,
+						6,
+						0,
+						null
+					],
+					[
+						120321.428571429,
+						7,
+						0,
+						null
+					],
+					[
+						120428.571428571,
+						4,
+						0,
+						null
+					],
+					[
+						120642.857142857,
+						6,
+						0,
+						null
+					],
+					[
+						120750,
+						7,
+						0,
+						null
+					],
+					[
+						120964.285714286,
+						4,
+						0,
+						null
+					],
+					[
+						121071.428571429,
+						6,
+						0,
+						null
+					],
+					[
+						121178.571428571,
+						5,
+						0,
+						null
+					],
+					[
+						121285.714285714,
+						4,
+						0,
+						null
+					],
+					[
+						121392.857142857,
+						7,
+						0,
+						null
+					],
+					[
+						121500,
+						4,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [
+					[
+						122142.735000001,
+						0,
+						0,
+						"Beatbox Note"
+					],
+					[
+						122357.020500001,
+						1,
+						341.517515624932,
+						"Beatbox Note"
+					],
+					[
+						122785.591500001,
+						2,
+						523.660190624985,
+						"Beatbox Note"
+					],
+					[
+						121714.285714286,
+						6,
+						0,
+						null
+					],
+					[
+						121928.571428571,
+						6,
+						0,
+						null
+					],
+					[
+						122035.714285714,
+						7,
+						0,
+						null
+					],
+					[
+						122142.857142857,
+						4,
+						0,
+						null
+					],
+					[
+						122357.142857143,
+						5,
+						0,
+						null
+					],
+					[
+						122571.428571429,
+						6,
+						0,
+						null
+					],
+					[
+						122785.714285714,
+						5,
+						0,
+						null
+					],
+					[
+						123000,
+						4,
+						0,
+						null
+					],
+					[
+						123214.285714286,
+						6,
+						0,
+						null
+					]
+				],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"sectionBeats": 4,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"sectionNotes": [],
+				"bpm": 140,
+				"changeBPM": false,
+				"mustHitSection": false
+			}
+		],
+		"validScore": true,
+		"bpm": 140,
+		"needsVoices": true,
+		"song": "fan-of-fans"
+	}
+}

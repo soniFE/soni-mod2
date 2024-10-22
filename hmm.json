@@ -52,10 +52,8 @@
     },
     {
       "name": "hxdiscord_rpc",
-      "type": "git",
-      "dir": null,
-      "ref": "main",
-      "url": "https://github.com/MAJigsaw77/hxdiscord_rpc"
+      "type": "haxelib",
+      "version": null
     },
     {
       "name": "flxanimate",
@@ -63,13 +61,6 @@
       "dir": null,
       "ref": "dev",
       "url": "https://github.com/ShadowMario/flxanimate"
-    },
-    {
-      "name": "linc_luajit",
-      "type": "git",
-      "dir": null,
-      "ref": "master",
-      "url": "https://github.com/superpowers04/linc_luajit"
     },
     {
       "name": "polymod",

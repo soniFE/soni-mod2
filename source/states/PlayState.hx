@@ -2953,6 +2953,14 @@ class PlayState extends MusicBeatState
 		#end
 	}
 
+	public function setScript(name:String, thing:Dynamic)
+	{	
+		for (script in hscriptArray)
+		{
+			script.set(name, thing);
+		}
+	}
+
 	override function sectionHit()
 	{
 		if (SONG.notes[curSection] != null)
