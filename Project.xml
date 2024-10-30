@@ -84,13 +84,10 @@
 	<haxelib name="flxanimate"/>
 
 	<!--Modding Things-->
-	<!--<haxelib name="polymod" if="MODDING_ALLOWED"/>-->
+	<haxelib name="polymod" if="MODDING_ALLOWED"/>
 	<haxelib name="hscript-iris" if="MODDING_ALLOWED"/>
 
-	<define name="CUSTOM_CLASSES" />
-
 	<haxedef name="POLYMOD_DEBUG" value="true"/>
-	<haxedef name="POLYMOD_SCRIPT_EXT" value=".hx" />
 	<haxedef name="POLYMOD_ROOT_PATH" value="scripts/" />
 	<haxedef name="POLYMOD_MOD_METADATA_FILE" value="meta.json" />
 
