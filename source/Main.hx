@@ -14,7 +14,7 @@ import openfl.events.Event;
 import openfl.display.StageScaleMode;
 import lime.app.Application;
 import states.TitleState;
-//import modding.PsychMod;
+import modding.PsychMod;
 
 #if linux
 import lime.graphics.Image;
