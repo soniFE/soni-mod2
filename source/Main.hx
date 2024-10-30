@@ -100,7 +100,7 @@ class Main extends Sprite
         setupShaderCoordsFix();
 
         #if MODDING_ALLOWED
-        //PsychMod.initialize();
+        PsychMod.initialize();
         #end
     }
 
